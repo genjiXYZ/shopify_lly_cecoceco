@@ -3,6 +3,12 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "fd45508d-d5eb-4c09-8650-c4a5e20b234a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1637648434085.jpg"
+          }
+        },
         "39b61093-f894-45f7-91cf-56058c20b903": {
           "type": "heading",
           "settings": {
@@ -29,6 +35,7 @@
         }
       },
       "block_order": [
+        "fd45508d-d5eb-4c09-8650-c4a5e20b234a",
         "39b61093-f894-45f7-91cf-56058c20b903",
         "03c54ce4-1a71-45c9-a109-770d3203c3ed",
         "144665df-04ea-4115-ada7-928092bd86c0"
