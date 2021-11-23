@@ -6,7 +6,6 @@
         "fd45508d-d5eb-4c09-8650-c4a5e20b234a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1637648434085.jpg"
           }
         },
         "39b61093-f894-45f7-91cf-56058c20b903": {
@@ -41,7 +40,7 @@
         "144665df-04ea-4115-ada7-928092bd86c0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1920x1080-plushlight_4a4d9abd-0726-47cc-8237-b310608d877d.jpg",
+        "image": "shopify:\/\/shop_images\/image_12.png",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "show_text_box": false,
