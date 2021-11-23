@@ -1,0 +1,61 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-11-24 00:23:58
+ * @LastEditTime: 2021-11-24 01:31:09
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: /shopify_lly_cecoceco/sections/space.liquid
+-->
+
+
+{%- style -%}
+  .mySpace{
+    height: {{ section.settings.height }}px;
+    width: 100%;
+    background-color: {{ section.settings.color }};
+  }
+
+{%- endstyle -%}
+{% if section.settings %}
+
+<div class="mySpace">
+iam  space  {{ section.settings.height }}px
+</div>
+
+    
+{% endif %}
+
+
+{% schema %}
+{
+    "name":"自定义间距",
+    "tag": "section",
+    "settings":[
+    {
+        "type": "range",
+        "id": "height",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "高度",
+        "default": 16
+      },
+      {
+        "type": "text",
+        "id":"color",
+        "label": "颜色",
+        "default": "#000000",
+        "info": "不要有多余空格"
+      }
+     
+    
+    ],
+    "presets": [
+    {
+      "name": "自定义间距"
+    }
+  ]
+      
+}
+{% endschema %}
