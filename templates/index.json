@@ -50,6 +50,40 @@
         "show_text_below": false
       }
     },
+    "163768358253d3a12c": {
+      "type": "image-with-text",
+      "blocks": {
+        "16376835823023eb08-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16376835823023eb08-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16376835823023eb08-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16376835823023eb08-0",
+        "16376835823023eb08-1",
+        "16376835823023eb08-2"
+      ],
+      "settings": {
+        "height": "large",
+        "color_scheme": "accent-1",
+        "layout": "text_first"
+      }
+    },
     "1631770921322b2533": {
       "type": "video",
       "settings": {
@@ -147,49 +181,13 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Email us your questions",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><br\/>Email us your questions<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Contact us",
-            "button_link": "shopify:\/\/pages\/contact-us",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
     }
   },
   "order": [
     "image_banner",
+    "163768358253d3a12c",
     "1631770921322b2533",
     "16328840997d903339",
-    "1631065942428375eb",
-    "rich_text"
+    "1631065942428375eb"
   ]
 }
