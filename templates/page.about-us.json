@@ -1,0 +1,488 @@
+{
+  "sections": {
+    "1631671567e11b8903": {
+      "type": "image-banner",
+      "blocks": {
+        "1631671567e11b8903-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Add a spark to daily life",
+            "heading_size": "medium"
+          }
+        },
+        "1631671567e11b8903-1": {
+          "type": "text",
+          "settings": {
+            "text": "CECOCECO is committed to closing the distance between products and daily life through technology, providing consumers with creative lighting innovations and enhanced life experiences."
+          }
+        },
+        "1631671567e11b8903-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1631671567e11b8903-0",
+        "1631671567e11b8903-1",
+        "1631671567e11b8903-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/flower.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 50,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "16316730517b903055": {
+      "type": "rich-text",
+      "blocks": {
+        "16316730517b903055-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Add a spark to daily life",
+            "heading_size": "h1"
+          }
+        },
+        "16316730517b903055-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the past fifteen years, we have focused on the stage and built a top global brand in the LED display industry. The epidemic in 2020 changed our way of life. The time spent at home has increased, giving us more time for observation and thought about our lives. Creative thinking and the pursuit of aesthetics should not just stay on the stage. Our past experience and resources can actually be used to create more cool lighting products and add more fun to our lives.<\/p>"
+          }
+        },
+        "16316730517b903055-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16316730517b903055-0",
+        "16316730517b903055-1",
+        "16316730517b903055-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16316854778be31309": {
+      "type": "rich-text",
+      "blocks": {
+        "16316854778be31309-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Founder",
+            "heading_size": "h1"
+          }
+        },
+        "16316854778be31309-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16316854778be31309-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16316854778be31309-0",
+        "16316854778be31309-1",
+        "16316854778be31309-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
+      }
+    },
+    "16316855298f72f371": {
+      "type": "image-with-text",
+      "blocks": {
+        "16316855298f72f371-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16316855298f72f371-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jason started his own business after graduating from university in 2006. He has been in the LED display industry for 15 years and built the world's top brand ROE Visual.<\/p>"
+          }
+        },
+        "16316855298f72f371-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16316855298f72f371-0",
+        "16316855298f72f371-1",
+        "16316855298f72f371-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Jason_Lu_ba3088a0-e7aa-4af9-8c8f-7c4709ba4fb2.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163168563231fc2335": {
+      "type": "rich-text",
+      "blocks": {
+        "163168563231fc2335-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR STORY",
+            "heading_size": "h1"
+          }
+        },
+        "163168563231fc2335-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "163168563231fc2335-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "163168563231fc2335-0",
+        "163168563231fc2335-1",
+        "163168563231fc2335-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16316859959cb474e4": {
+      "type": "image-with-text",
+      "blocks": {
+        "16316859959cb474e4-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16316859959cb474e4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the past fifteen years, ROE products have appeared on countless stages around the world including the Desert Music Festival, Australian Open, Disneyland, Broadway Theater, and even on movie sets. I witnessed people’s passion, excitement, and a range of other emotions at each scene. In those moments, I felt that our products were not mere machines; they joined the people to create a lively vision and wonderful memory.<\/p>"
+          }
+        },
+        "16316859959cb474e4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16316859959cb474e4-0",
+        "16316859959cb474e4-1",
+        "16316859959cb474e4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LED.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "1631691002059351a1": {
+      "type": "rich-text",
+      "blocks": {
+        "1631691002059351a1-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1631691002059351a1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/><\/p>"
+          }
+        },
+        "1631691002059351a1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1631691002059351a1-0",
+        "1631691002059351a1-1",
+        "1631691002059351a1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "163168998900a66880": {
+      "type": "rich-text",
+      "blocks": {
+        "163168998900a66880-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "163168998900a66880-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In 2020, the pandemic swept across the globe, and the entire world seemed to have been pressed with a pause button. People went out and gathered less and spent more time alone at home. I began to think: would it be possible to move these cherished moments into our new lives?<\/p>"
+          }
+        },
+        "163168998900a66880-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "163168998900a66880-0",
+        "163168998900a66880-1",
+        "163168998900a66880-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1631689792057ea234": {
+      "type": "image-with-text",
+      "blocks": {
+        "1631689792057ea234-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1631689792057ea234-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I thought of light. An LED display is composed of point light sources. These lights improve the stage and make it different. So, could we apply the accumulated technology and previous experiences to create lighting products that improve our daily lives? I shared my idea with my team. This group of people who have built together with me and witnessed top products and stages seemed to suddenly awaken from an increasingly dull life. Everyone was expecting that we would be able to make more innovative products. That was how CECOCECO was born.<\/p>"
+          }
+        },
+        "1631689792057ea234-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1631689792057ea234-0",
+        "1631689792057ea234-1",
+        "1631689792057ea234-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cecoceco.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163169000593e1640f": {
+      "type": "rich-text",
+      "blocks": {
+        "163169000593e1640f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "163169000593e1640f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Perhaps what really matters is not the stage itself, but the energy and enthusiasm that people bring to those scenes. Our hope is that CECOCECO can make life everywhere a stage.<\/p>"
+          }
+        },
+        "163169000593e1640f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "163169000593e1640f-0",
+        "163169000593e1640f-1",
+        "163169000593e1640f-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16316901328c434bdf": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "16316901328c434bdf-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "16316901328c434bdf-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "16316901328c434bdf-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16316901328c434bdf-0",
+        "16316901328c434bdf-1",
+        "16316901328c434bdf-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cecoceco-1080.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1631690839d58f2347": {
+      "type": "rich-text",
+      "blocks": {
+        "1631690839d58f2347-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1631690839d58f2347-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/> <br\/><br\/><\/p><p><\/p><p><\/p><p><\/p>"
+          }
+        },
+        "1631690839d58f2347-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1631690839d58f2347-0",
+        "1631690839d58f2347-1",
+        "1631690839d58f2347-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1631671567e11b8903",
+    "16316730517b903055",
+    "16316854778be31309",
+    "16316855298f72f371",
+    "163168563231fc2335",
+    "main",
+    "16316859959cb474e4",
+    "1631691002059351a1",
+    "163168998900a66880",
+    "1631689792057ea234",
+    "163169000593e1640f",
+    "16316901328c434bdf",
+    "1631690839d58f2347"
+  ]
+}
