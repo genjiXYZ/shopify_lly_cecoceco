@@ -55,8 +55,12 @@
 
 
 
+/* footer  bg */
 
 
+.footer.color-accent-1.gradient{
+  background-color: #000 !important;
+}
 
 
 

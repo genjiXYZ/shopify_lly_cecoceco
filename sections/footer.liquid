@@ -21,7 +21,8 @@
     top: 0;
     left: 0;
     right: 0;
-    font-size: 100px;
+    overflow: hidden;
+ 
     mix-blend-mode: overlay;
   }
 
@@ -234,9 +235,11 @@
       {%- if section.settings.colorfull.width >= 3840 -%}{{ section.settings.colorfull | img_url: '3840x' }} 3840w,{%- endif -%}
       {{ section.settings.colorfull | img_url: 'master' }} {{ section.settings.colorfull.width }}w"
     sizes="{% if section.settings.image != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image != blank %}50vw{% else %}100vw{% endif %}"
-    src="{{ section.settings.colorfull | img_url: '1500x' }}"
+    src="{{ section.settings.colorfull | img_url }}"
        
         loading="lazy"
+        width="100%"
+        height="100%"
       >
       
     </div>
