@@ -14,6 +14,22 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
 
+<style>
+  .colorfull-footer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 100px;
+    mix-blend-mode: overlay;
+  }
+
+  .footer{
+    position: relative;
+  }
+</style>
+
 <footer class="footer color-{{ section.settings.color_scheme }} gradient">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">
@@ -73,6 +89,9 @@
           {%- endfor -%}
         </div>
       {%- endif -%}
+
+
+      
 
       <div class="footer-block--newsletter">
         {%- if section.settings.newsletter_enable -%}
@@ -201,6 +220,29 @@
       </div>
     </div>
   {%- endif -%}
+
+  {% if section.settings.colorfull %}
+    <div class="colorfull-footer">
+      <img
+      srcset="{%- if section.settings.colorfull.width >= 375 -%}{{ section.settings.colorfull | img_url: '375x' }} 375w,{%- endif -%}
+      {%- if section.settings.colorfull.width >= 750 -%}{{ section.settings.colorfull | img_url: '750x' }} 750w,{%- endif -%}
+      {%- if section.settings.colorfull.width >= 1100 -%}{{ section.settings.colorfull | img_url: '1100x' }} 1100w,{%- endif -%}
+      {%- if section.settings.colorfull.width >= 1500 -%}{{ section.settings.colorfull | img_url: '1500x' }} 1500w,{%- endif -%}
+      {%- if section.settings.colorfull.width >= 1780 -%}{{ section.settings.colorfull | img_url: '1780x' }} 1780w,{%- endif -%}
+      {%- if section.settings.colorfull.width >= 2000 -%}{{ section.settings.colorfull | img_url: '2000x' }} 2000w,{%- endif -%}
+      {%- if section.settings.colorfull.width >= 3000 -%}{{ section.settings.colorfull | img_url: '3000x' }} 3000w,{%- endif -%}
+      {%- if section.settings.colorfull.width >= 3840 -%}{{ section.settings.colorfull | img_url: '3840x' }} 3840w,{%- endif -%}
+      {{ section.settings.colorfull | img_url: 'master' }} {{ section.settings.colorfull.width }}w"
+    sizes="{% if section.settings.image != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image != blank %}50vw{% else %}100vw{% endif %}"
+    src="{{ section.settings.colorfull | img_url: '1500x' }}"
+       
+        loading="lazy"
+      >
+      
+    </div>
+  {% endif %}
+
+
 
   <div class="footer__content-bottom">
     <div class="footer__content-bottom-wrapper page-width">
@@ -449,6 +491,11 @@
     }
   ],
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "colorfull",
+      "label": "炫彩图片选择"
+    },
     {
       "type": "select",
       "id": "color_scheme",

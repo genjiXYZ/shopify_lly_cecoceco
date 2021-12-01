@@ -152,7 +152,7 @@
 @media screen and (min-width: 750px) {
   .banner__content {
     padding-bottom: 5rem;
-    padding-top: 5rem;
+    padding-top: 0rem;
   }
 
   .banner__content--center {
@@ -270,7 +270,7 @@
 
 @media screen and (min-width: 750px) {
   .banner__box {
-    padding: 5rem;
+    padding: 2rem;
     width: auto;
     max-width: 71rem;
     min-width: 45rem;

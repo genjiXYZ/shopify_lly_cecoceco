@@ -1,5 +1,8 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
+
+
+
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
   @media screen and (max-width: 749px) {
@@ -91,13 +94,19 @@
 
           
 
-          {%- when 'image' -%}
+          {%- when 'text' -%}
         
-           {% render 'icon-christmas' %}
+          <div>
+            <span></span>
+          </div>
+
             </h2>
           {%- when 'text' -%}
             <div class="banner__text" {{ block.shopify_attributes }}>
-              <span>{{ block.settings.text | escape }}</span>
+              <span  class="{% if block.settings.isColorfull %}colorfull__text{% endif %} " >{{ block.settings.text | escape }}</span>
+ 
+             
+
             </div>
           {%- when 'buttons' -%}
             <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_link_1 != blank and block.settings.button_label_2 != blank and block.settings.button_link_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
@@ -258,6 +267,13 @@
           "id": "text",
           "default": "Give customers details about the banner image(s) or content on the template.",
           "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "isColorfull",
+          "label": "是否炫彩",
+          "default": false
+         
         }
       ]
     },
@@ -303,16 +319,8 @@
           "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
         }
       ]
-    },
-    {
-      "type": "image",
-      "name": "svg",
-      "limit": 2,
-      "settings": [
-        
-         
-      ]
     }
+   
   ],
   "presets": [
     {
@@ -326,10 +334,8 @@
         },
         {
           "type": "buttons"
-        },
-        {
-          "type": "image"
         }
+        
       ]
     }
   ]

@@ -1,3 +1,48 @@
+/* 修改 */
+
+
+/* 炫彩bar */
+.header-wrapper::before{
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  background-image:linear-gradient(to right, #FFBF66 , #FFFFFF,#FF63CA,#4FC4FF);
+  
+}
+
+
+
+/* 炫彩文字*/
+
+.colorfull__text{
+  background-image: linear-gradient(
+    to right,
+    #ffbf66,
+    #ffffff,
+    #ff63ca,
+    #4fc4ff
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 16px;
+ 
+}
+
+.banner__text span{
+  font-size: 2rem;
+  
+}
+
+
+/* nav Select 位置调整*/
+
+.header__submenu{
+  margin-top: calc(2rem + 2px) !important;
+}
+
 /* Color custom properties */
 
 :root,
@@ -107,6 +152,8 @@
   --color-badge-border: var(--color-foreground);
   --alpha-badge-border: 0.1;
 }
+
+
 
 .color-background-2,
 .color-inverse,
