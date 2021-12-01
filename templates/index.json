@@ -27,7 +27,7 @@
         "144665df-04ea-4115-ada7-928092bd86c0": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop now",
+            "button_label_1": "Learn More   >",
             "button_link_1": "shopify:\/\/products\/plush-light",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -43,7 +43,7 @@
         "144665df-04ea-4115-ada7-928092bd86c0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_12.png",
+        "image": "shopify:\/\/shop_images\/image_12.jpg",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "show_text_box": false,
