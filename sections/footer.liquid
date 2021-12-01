@@ -23,13 +23,33 @@
     right: 0;
     overflow: hidden;
  
-    mix-blend-mode: overlay;
+  
   }
 
   .footer{
+  
     position: relative;
+background-position:  0px 0px ;
+    background-size: contain;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+
   }
 </style>
+
+{%- style -%}
+  .footer{
+
+    
+    background-image: url({{ section.settings.colorfull | img_url }}) ;
+
+ 
+  
+
+
+  }
+
+{%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
@@ -222,7 +242,7 @@
     </div>
   {%- endif -%}
 
-  {% if section.settings.colorfull %}
+  <!-- {% if section.settings.colorfull %}
     <div class="colorfull-footer">
       <img
       srcset="{%- if section.settings.colorfull.width >= 375 -%}{{ section.settings.colorfull | img_url: '375x' }} 375w,{%- endif -%}
@@ -243,7 +263,7 @@
       >
       
     </div>
-  {% endif %}
+  {% endif %} -->
 
 
 
