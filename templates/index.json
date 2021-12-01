@@ -3,9 +3,11 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "fd45508d-d5eb-4c09-8650-c4a5e20b234a": {
-          "type": "image",
+        "7f307433-48b0-429a-859c-5192c58beaf5": {
+          "type": "text",
           "settings": {
+            "text": "CHRISTMAS",
+            "isColorfull": true
           }
         },
         "39b61093-f894-45f7-91cf-56058c20b903": {
@@ -18,7 +20,8 @@
         "03c54ce4-1a71-45c9-a109-770d3203c3ed": {
           "type": "text",
           "settings": {
-            "text": "A Gift, A Friend"
+            "text": "Enjoy this moment",
+            "isColorfull": false
           }
         },
         "144665df-04ea-4115-ada7-928092bd86c0": {
@@ -34,7 +37,7 @@
         }
       },
       "block_order": [
-        "fd45508d-d5eb-4c09-8650-c4a5e20b234a",
+        "7f307433-48b0-429a-859c-5192c58beaf5",
         "39b61093-f894-45f7-91cf-56058c20b903",
         "03c54ce4-1a71-45c9-a109-770d3203c3ed",
         "144665df-04ea-4115-ada7-928092bd86c0"
@@ -115,7 +118,8 @@
         "16328840997d903339-1": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "",
+            "isColorfull": false
           }
         },
         "16328840997d903339-2": {
@@ -159,7 +163,8 @@
         "1631065942428375eb-1": {
           "type": "text",
           "settings": {
-            "text": "CECOCECO is committed to closing the distance between products and daily life through technology, providing consumers with creative lighting innovations and enhanced life experiences."
+            "text": "CECOCECO is committed to closing the distance between products and daily life through technology, providing consumers with creative lighting innovations and enhanced life experiences.",
+            "isColorfull": false
           }
         },
         "1631065942428375eb-2": {
