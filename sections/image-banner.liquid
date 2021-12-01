@@ -106,13 +106,7 @@
 
           
 
-          {%- when 'text' -%}
-        
-          <div>
-            <span></span>
-          </div>
-
-            </h2>
+          
           {%- when 'text' -%}
             <div class="banner__text" {{ block.shopify_attributes }}>
               <span  class="{% if block.settings.isColorfull %}colorfull__text{% endif %} " >{{ block.settings.text | escape }}</span>
