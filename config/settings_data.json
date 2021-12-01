@@ -71,6 +71,7 @@
           "21d79bb4-2bab-410b-81e3-be61daf35260"
         ],
         "settings": {
+          "colorfull": "shopify:\/\/shop_images\/image_5.png",
           "color_scheme": "accent-1",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
