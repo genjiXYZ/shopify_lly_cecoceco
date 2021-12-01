@@ -43,6 +43,28 @@
   margin-top: calc(2rem + 2px) !important;
 }
 
+
+
+/* button  颜色*/
+.banner__buttons a{
+ background-color: transparent !important;
+ border: 1px solid #FFFFFF !important;
+ color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Color custom properties */
 
 :root,
