@@ -52,17 +52,9 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
-    },
-    "16376941482b0e59a0": {
-      "type": "space",
-      "settings": {
-        "height": 68,
-        "color": "pink"
-      }
     }
   },
   "order": [
-    "image_banner",
-    "16376941482b0e59a0"
+    "image_banner"
   ]
 }
