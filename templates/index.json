@@ -106,6 +106,7 @@
         "16385194318b9c9a5b-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_13_1763faba-a40c-4071-bc29-a87c43596c05.jpg",
             "image_position": "center center",
             "image_overlay": true,
             "image_overlay_opacity": 25,
@@ -122,6 +123,7 @@
         "16385194318b9c9a5b-1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_12.jpg",
             "image_position": "center center",
             "image_overlay": true,
             "image_overlay_opacity": 25,
