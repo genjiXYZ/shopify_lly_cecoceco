@@ -136,11 +136,29 @@
             "slide_button_label_color": "#ffffff",
             "slide_button_background_color": "#1f2021"
           }
+        },
+        "ca818f5e-f212-4411-b55a-f1bfbffd597b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roe-visual.jpg",
+            "image_position": "center center",
+            "image_overlay": true,
+            "image_overlay_opacity": 25,
+            "text_alignment": "center",
+            "slide_heading": "Hero Banner",
+            "slide_subheading": "An introductory",
+            "button_label": "Shop now",
+            "button_link": "",
+            "slide_text_color": "#ffffff",
+            "slide_button_label_color": "#ffffff",
+            "slide_button_background_color": "#1f2021"
+          }
         }
       },
       "block_order": [
         "16385194318b9c9a5b-0",
-        "16385194318b9c9a5b-1"
+        "16385194318b9c9a5b-1",
+        "ca818f5e-f212-4411-b55a-f1bfbffd597b"
       ],
       "settings": {
         "home_hero_height": "full",
