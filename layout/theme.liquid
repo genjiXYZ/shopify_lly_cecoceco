@@ -27,6 +27,8 @@
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
 
+    {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
@@ -167,5 +169,9 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {{ 'jquery-2.2.3.min.js' | asset_url | script_tag }}
+    <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+
   </body>
 </html>
