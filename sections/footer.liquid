@@ -29,11 +29,17 @@
   .footer{
   
     position: relative;
-background-position:  0px 0px ;
+background-position:  top center ;
     background-size: cover;
     background-attachment:scroll;
     background-repeat: no-repeat;
 
+  }
+
+  @media screen and (max-width: 749px) {
+    .footer{
+      background-size: contain;
+    }
   }
 </style>
 
