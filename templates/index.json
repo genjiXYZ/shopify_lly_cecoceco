@@ -1,5 +1,53 @@
 {
   "sections": {
+    "1638519431d513694a": {
+      "type": "slideshow",
+      "blocks": {
+        "16385194318b9c9a5b-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_12.jpg",
+            "slide_colorfull": "Hero Banner",
+            "slide_heading": "Hero Banner",
+            "slide_subheading": "An introductory",
+            "button_label": "Shop now",
+            "button_link": ""
+          }
+        },
+        "16385194318b9c9a5b-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_1fc052aa-378a-45c0-a938-3901314706c5.jpg",
+            "slide_colorfull": "colorfull text",
+            "slide_heading": "Hero Banner",
+            "slide_subheading": "An introductory",
+            "button_label": "Shop now",
+            "button_link": ""
+          }
+        },
+        "ca818f5e-f212-4411-b55a-f1bfbffd597b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC03600.jpg",
+            "slide_colorfull": "",
+            "slide_heading": "Hero Banner",
+            "slide_subheading": "An introductory",
+            "button_label": "Shop now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16385194318b9c9a5b-1",
+        "16385194318b9c9a5b-0",
+        "ca818f5e-f212-4411-b55a-f1bfbffd597b"
+      ],
+      "settings": {
+        "home_hero_height": "full",
+        "hero_home_auto": true,
+        "home_hero_auto_speed": 3
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -98,60 +146,12 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
-    },
-    "1638519431d513694a": {
-      "type": "slideshow",
-      "blocks": {
-        "16385194318b9c9a5b-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_1fc052aa-378a-45c0-a938-3901314706c5.jpg",
-            "slide_heading": "Hero Banner",
-            "slide_subheading": "An introductory",
-            "slide_colorfull": "",
-            "button_label": "Shop now",
-            "button_link": ""
-          }
-        },
-        "16385194318b9c9a5b-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_12.jpg",
-            "slide_heading": "Hero Banner",
-            "slide_subheading": "An introductory",
-            "slide_colorfull": "",
-            "button_label": "Shop now",
-            "button_link": ""
-          }
-        },
-        "ca818f5e-f212-4411-b55a-f1bfbffd597b": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC03600.jpg",
-            "slide_heading": "Hero Banner",
-            "slide_subheading": "An introductory",
-            "slide_colorfull": "",
-            "button_label": "Shop now",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16385194318b9c9a5b-0",
-        "16385194318b9c9a5b-1",
-        "ca818f5e-f212-4411-b55a-f1bfbffd597b"
-      ],
-      "settings": {
-        "home_hero_height": "full",
-        "hero_home_auto": true,
-        "home_hero_auto_speed": 3
-      }
     }
   },
   "order": [
+    "1638519431d513694a",
     "image_banner",
     "1638354489dc1cb038",
-    "1638354424b406de7f",
-    "1638519431d513694a"
+    "1638354424b406de7f"
   ]
 }
