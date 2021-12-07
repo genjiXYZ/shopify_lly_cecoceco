@@ -173,9 +173,12 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    {{ 'jquery-2.2.3.min.js' | asset_url | script_tag }}
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+    <script src="{{ 'jquery-2.2.3.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'slide.js' | asset_url }}" defer="defer"></script>
+
+
+  
     <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
 
   </body>
