@@ -16,6 +16,22 @@
  color: white;
     padding-top: 48px;
 }
+
+/* //炫彩文字大小 */
+.slide-block .text_conent .colorfull__text{
+   font-size: 16px;
+  }
+
+
+
+  .slide-block .text_conent .slide__title{
+    font-size: 40px;
+   }
+
+
+   .slide-block .text_conent .slide__subtitle{
+    font-size: 20px;
+   }
   
   
 .media_wrapper{
