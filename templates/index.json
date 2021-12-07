@@ -57,7 +57,6 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "cover_image": "shopify:\/\/shop_images\/Frame_13_fa12a9ab-9ff6-4445-a863-de248da0a233.jpg",
         "video_url": "https:\/\/youtu.be\/cfKqAvADrts",
         "description": "",
         "full_width": true
@@ -162,7 +161,7 @@
       ],
       "settings": {
         "home_hero_height": "full",
-        "hero_home_auto": false,
+        "hero_home_auto": true,
         "home_hero_auto_speed": 5
       }
     }
