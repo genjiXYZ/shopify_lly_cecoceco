@@ -28,7 +28,9 @@
         {%- endif -%}
 
         {%- if block.settings.button_label -%}
-          <span> {{ block.settings.button_label }}</span>
+         <div class="button">
+          <a  href="{{ block.settings.button_link }}" >{{ block.settings.button_label | escape }}</a>
+        </div>
         {%- endif -%}
 
 
