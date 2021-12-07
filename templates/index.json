@@ -162,7 +162,7 @@
       "settings": {
         "home_hero_height": "full",
         "hero_home_auto": true,
-        "home_hero_auto_speed": 5
+        "home_hero_auto_speed": 3
       }
     }
   },
