@@ -105,52 +105,34 @@
         "16385194318b9c9a5b-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_13_1763faba-a40c-4071-bc29-a87c43596c05.jpg",
-            "image_position": "center center",
-            "image_overlay": true,
-            "image_overlay_opacity": 25,
-            "text_alignment": "center",
+            "image": "shopify:\/\/shop_images\/1_1fc052aa-378a-45c0-a938-3901314706c5.jpg",
             "slide_heading": "Hero Banner",
             "slide_subheading": "An introductory",
+            "slide_colorfull": "",
             "button_label": "Shop now",
-            "button_link": "",
-            "slide_text_color": "#ffffff",
-            "slide_button_label_color": "#ffffff",
-            "slide_button_background_color": "#1f2021"
+            "button_link": ""
           }
         },
         "16385194318b9c9a5b-1": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_12.jpg",
-            "image_position": "center center",
-            "image_overlay": true,
-            "image_overlay_opacity": 25,
-            "text_alignment": "center",
             "slide_heading": "Hero Banner",
             "slide_subheading": "An introductory",
+            "slide_colorfull": "",
             "button_label": "Shop now",
-            "button_link": "",
-            "slide_text_color": "#ffffff",
-            "slide_button_label_color": "#ffffff",
-            "slide_button_background_color": "#1f2021"
+            "button_link": ""
           }
         },
         "ca818f5e-f212-4411-b55a-f1bfbffd597b": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/roe-visual.jpg",
-            "image_position": "center center",
-            "image_overlay": true,
-            "image_overlay_opacity": 25,
-            "text_alignment": "center",
+            "image": "shopify:\/\/shop_images\/DSC03600.jpg",
             "slide_heading": "Hero Banner",
             "slide_subheading": "An introductory",
+            "slide_colorfull": "",
             "button_label": "Shop now",
-            "button_link": "",
-            "slide_text_color": "#ffffff",
-            "slide_button_label_color": "#ffffff",
-            "slide_button_background_color": "#1f2021"
+            "button_link": ""
           }
         }
       },
