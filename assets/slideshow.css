@@ -1,7 +1,56 @@
 
 /* Slider  theme */
-.slick-loading .slick-list
-{
+
+
+.slide-block{
+    height:100vh !important; 
+    position: relative;
+}
+  
+.slide-block .text_conent{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+ color: white;
+    padding-top: 48px;
+}
+  
+  
+.media_wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+    .media_wrapper img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+      }
+  
+  
+     
+      
+    
+  
+    .slick-dots {
+      bottom: 20px !important;
+    }
+    .slick-list{
+      height:100%;
+    }
+    
+
+
+
+
+
  
 
 /* Arrows */
