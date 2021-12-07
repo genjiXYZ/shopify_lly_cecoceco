@@ -1,7 +1,7 @@
 /* Slider  theme */
 
 .slide-block {
-  height: 100vh !important;
+  height: calc(100vh - 85px) !important;
   position: relative;
 }
 
