@@ -45,7 +45,7 @@
       "settings": {
         "home_hero_height": "full",
         "hero_home_auto": true,
-        "home_hero_auto_speed": 3
+        "home_hero_auto_speed": 5
       }
     },
     "image_banner": {
