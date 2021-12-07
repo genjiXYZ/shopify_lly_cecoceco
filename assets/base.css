@@ -281,7 +281,7 @@ html.no-js .no-js-hidden {
   }
 }
 
-.element-margin {
+/* .element-margin {
   margin-top: 5rem;
 }
 
@@ -305,7 +305,7 @@ html.no-js .no-js-hidden {
   .spaced-section:last-child {
     margin-bottom: calc(5rem + var(--page-width-margin));
   }
-}
+} */
 
 .spaced-section--full-width + .spaced-section--full-width {
   margin-top: 0;
