@@ -51,6 +51,7 @@ min-height: 4rem !important;
   background-color: transparent !important;
   color: #ffffff;
   text-decoration: none;
+  border: none !important;
 }
 
 .media_wrapper {
