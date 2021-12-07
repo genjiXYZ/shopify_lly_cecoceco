@@ -18,7 +18,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_1fc052aa-378a-45c0-a938-3901314706c5.jpg",
-            "slide_colorfull": "colorfull text",
+            "slide_colorfull": "123",
             "slide_heading": "Hero Banner",
             "slide_subheading": "An introductory",
             "button_label": "Shop now",
@@ -29,7 +29,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/DSC03600.jpg",
-            "slide_colorfull": "",
+            "slide_colorfull": "123",
             "slide_heading": "Hero Banner",
             "slide_subheading": "An introductory",
             "button_label": "Shop now",
