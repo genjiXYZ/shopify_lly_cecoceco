@@ -23,7 +23,13 @@
           <span class="slide__title"> {{ block.settings.slide_heading }}</span>
         {%- endif -%}
         {%- if block.settings.slide_image != blank -%}
-          <div class="slide__image"> <img src="{{ block.settings.slide_image | img_url}}" height="40px"  loading="lazy"  alt="block.settings.slide_image.alt"> </div>
+          <div class="slide__image"> 
+            <img class="slide__image_img" src="{{ block.settings.slide_image | img_url }}" 
+             
+            loading="lazy"  
+            alt="block.settings.slide_image.alt"
+            > 
+          </div>
         {%- endif -%}
 
         {%- if block.settings.slide_subheading != blank -%}

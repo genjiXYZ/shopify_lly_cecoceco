@@ -49,8 +49,6 @@
 
 }
 
-
-
 .slide-block .text_conent .slide__subtitle {
   font-size: 20px;
   font-weight: 200;
@@ -60,8 +58,17 @@
 }
 
 .slide-block .text_conent .slide__image {
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  height: 52px;
+  
 }
+.slide-block .text_conent .slide__image  .slide__image_img{
+  height: 40px;
+}
+
 
 @media screen and (max-width: 749px) {
   .slide-block .text_conent .colorfull__text {
@@ -77,6 +84,15 @@
     margin-bottom: 8px;
   
   }
+  .slide-block .text_conent .slide__image {
+    height: 32px;
+    margin-bottom: 8px;
+  }
+
+  .slide-block .text_conent .slide__image  .slide__image_img{
+    height: 24px;
+  }
+  
   
   .slide-block .text_conent .slide__subtitle {
     font-size: 14px;
