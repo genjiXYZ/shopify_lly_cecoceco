@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 749px) {
   .slide-block {
-    height: calc(80vh - 85px) !important;
+    height: calc(146vw - 85px) !important;
   
   }
 }

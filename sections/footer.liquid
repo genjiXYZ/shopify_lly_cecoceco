@@ -49,15 +49,13 @@ background-position:  top center ;
 
 @media screen and (max-width: 749px) {
   .footer{
-    background-image: url({{ section.settings.colorfull_mobile | img_url }}) ;
+    background-image: url({{ section.settings.colorfull_mobile | img_url }})  !important;
   }
 }
-  .footer{
-  
-    background-image: url({{ section.settings.colorfull | img_url }}) ;
+.footer{
+  background-image: url({{ section.settings.colorfull | img_url }}) ;
+}
 
- 
-  }
 
 {%- endstyle -%}
 
