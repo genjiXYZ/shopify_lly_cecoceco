@@ -55,6 +55,16 @@ min-height: 4rem !important;
   
 }
 
+
+.slide-block .button:hover{
+
+
+box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 1) !important;
+}
+
+
+
+
 .slide-block .button a {
   background-color: transparent !important;
   color: #ffffff;
