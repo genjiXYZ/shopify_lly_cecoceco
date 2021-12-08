@@ -44,15 +44,19 @@ background-position:  top center ;
 </style>
 
 {%- style -%}
-  .footer{
 
-    
+
+
+@media screen and (max-width: 749px) {
+  .footer{
+    background-image: url({{ section.settings.colorfull_mobile | img_url }}) ;
+  }
+}
+  .footer{
+  
     background-image: url({{ section.settings.colorfull | img_url }}) ;
 
  
-  
-
-
   }
 
 {%- endstyle -%}
@@ -502,6 +506,11 @@ background-position:  top center ;
       "type": "image_picker",
       "id": "colorfull",
       "label": "炫彩图片选择"
+    },
+    {
+      "type": "image_picker",
+      "id": "colorfull_mobile",
+      "label": "炫彩移动端图片选择"
     },
     {
       "type": "select",
