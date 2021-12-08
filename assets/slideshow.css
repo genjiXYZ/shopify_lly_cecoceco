@@ -1,8 +1,21 @@
 /* Slider  theme */
 
+
+
+
 .slide-block {
   height: calc(100vh - 85px) !important;
   position: relative;
+}
+
+
+
+
+@media screen and (max-width: 749px) {
+  .slide-block {
+    height: calc(80vh - 85px) !important;
+  
+  }
 }
 
 .slide-block .text_conent {
@@ -195,6 +208,14 @@ align-items: center;
   list-style: none;
 
   text-align: center;
+}
+
+
+@media screen and (max-width: 749px) {
+  .slick-dots {
+    bottom:10px !important;
+  
+  }
 }
 .slick-dots li {
   position: relative;
