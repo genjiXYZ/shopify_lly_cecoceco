@@ -22,6 +22,9 @@
         {%- if block.settings.slide_heading -%}
           <span class="slide__title"> {{ block.settings.slide_heading }}</span>
         {%- endif -%}
+        {%- if block.settings.slide_image -%}
+          <div class="slide__image"> <img src="{{ block.settings.slide_image | img_url}}" height="40px"  loading="lazy"  alt="block.settings.slide_image.alt"> </div>
+        {%- endif -%}
 
         {%- if block.settings.slide_subheading -%}
           <span class="slide__subtitle"> {{ block.settings.slide_subheading }}</span>
@@ -143,6 +146,11 @@
         "id": "slide_heading",
         "label": "标题"
         
+      },
+      {
+        "type": "image_picker",
+        "id": "slide_image",
+        "label": "标题图片"
       },
       {
         "type": "text",
