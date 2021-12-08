@@ -72,6 +72,7 @@
         ],
         "settings": {
           "colorfull": "shopify:\/\/shop_images\/image_5.png",
+          "colorfull_mobile": "shopify:\/\/shop_images\/image_5_aa8a1071-3130-4c48-85b3-6872e07c3792.png",
           "color_scheme": "accent-1",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
