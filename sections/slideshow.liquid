@@ -15,22 +15,22 @@
       <div class="slide-block">
         <div class="text_conent"> 
 
-        {%- if block.settings.slide_colorfull -%}
+        {%- if block.settings.slide_colorfull != blank -%}
           <span class="colorfull__text"> {{ block.settings.slide_colorfull }}</span>
         {%- endif -%}
 
-        {%- if block.settings.slide_heading -%}
+        {%- if block.settings.slide_heading  != blank -%}
           <span class="slide__title"> {{ block.settings.slide_heading }}</span>
         {%- endif -%}
-        {%- if block.settings.slide_image -%}
+        {%- if block.settings.slide_image != blank -%}
           <div class="slide__image"> <img src="{{ block.settings.slide_image | img_url}}" height="40px"  loading="lazy"  alt="block.settings.slide_image.alt"> </div>
         {%- endif -%}
 
-        {%- if block.settings.slide_subheading -%}
+        {%- if block.settings.slide_subheading != blank -%}
           <span class="slide__subtitle"> {{ block.settings.slide_subheading }}</span>
         {%- endif -%}
 
-        {%- if block.settings.button_label -%}
+        {%- if block.settings.button_label != blank -%}
          <div class="button">
           <a  href="{{ block.settings.button_link }}" >{{ block.settings.button_label | escape }}</a>
         </div>
