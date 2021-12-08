@@ -61,16 +61,32 @@
     },
     "1638870410ad8c558f": {
       "type": "image-banner",
+      "blocks": {
+        "94adbca8-6606-40d2-847d-e984a89514c3": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "94adbca8-6606-40d2-847d-e984a89514c3"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC03530.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
-        "show_text_box": true,
+        "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     }
   },
