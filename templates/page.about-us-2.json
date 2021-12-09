@@ -11,6 +11,7 @@
       "blocks": {
         "1632883231c8ff51f2-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "CECOCECO APP",
             "heading_size": "medium"
@@ -18,12 +19,14 @@
         },
         "1632883231c8ff51f2-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": ""
           }
         },
         "1632883231c8ff51f2-2": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Coming soon",
             "button_link_1": "",
@@ -40,11 +43,12 @@
         "1632883231c8ff51f2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/iMac_-_1.png",
+        "image": "shopify:\/\/shop_images\/banner-app.png",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": false,
-        "image_overlay_opacity": 50,
+        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": false
