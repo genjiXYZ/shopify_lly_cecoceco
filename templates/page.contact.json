@@ -1,5 +1,12 @@
 {
   "sections": {
+    "1639021388768f666f": {
+      "type": "space",
+      "settings": {
+        "height": 0,
+        "color": ""
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -83,12 +90,21 @@
       "settings": {
         "heading": "Contact form"
       }
+    },
+    "16390213486adeee04": {
+      "type": "space",
+      "settings": {
+        "height": 68,
+        "color": ""
+      }
     }
   },
   "order": [
+    "1639021388768f666f",
     "main",
     "16317758411fd4ddcf",
     "1631776141c839966c",
-    "16317796169debd474"
+    "16317796169debd474",
+    "16390213486adeee04"
   ]
 }
