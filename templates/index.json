@@ -14,28 +14,6 @@
             "button_link": "shopify:\/\/products\/plush-light"
           }
         },
-        "16385194318b9c9a5b-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_1fc052aa-378a-45c0-a938-3901314706c5.jpg",
-            "slide_colorfull": "123",
-            "slide_heading": "Hero Banner",
-            "slide_subheading": "An introductory",
-            "button_label": "Shop now",
-            "button_link": ""
-          }
-        },
-        "ca818f5e-f212-4411-b55a-f1bfbffd597b": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC03600.jpg",
-            "slide_colorfull": "123",
-            "slide_heading": "lly test Title",
-            "slide_subheading": "An introductory",
-            "button_label": "Shop now",
-            "button_link": ""
-          }
-        },
         "81a421aa-7fe2-4fc3-a866-4dbe6d9102a2": {
           "type": "slide",
           "settings": {
@@ -50,8 +28,6 @@
       },
       "block_order": [
         "16385194318b9c9a5b-1",
-        "16385194318b9c9a5b-0",
-        "ca818f5e-f212-4411-b55a-f1bfbffd597b",
         "81a421aa-7fe2-4fc3-a866-4dbe6d9102a2"
       ],
       "settings": {
