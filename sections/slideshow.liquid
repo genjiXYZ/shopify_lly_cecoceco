@@ -24,7 +24,7 @@
         {%- endif -%}
         {%- if block.settings.slide_image != blank -%}
           <div class="slide__image"> 
-            <img class="slide__image_img" src="{{ block.settings.slide_image | img_url }}" 
+            <img class="slide__image_img" src="{{ block.settings.slide_image | img_url: 'large' }}" 
              
             loading="lazy"  
             alt="block.settings.slide_image.alt"
@@ -81,7 +81,11 @@
 
 
 <script>
-   $(".lly-slider").slick();
+
+
+  
+
+
 
 </script>
 
