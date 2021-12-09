@@ -8,7 +8,7 @@
 
 
   
-<div class="lly-slider"  
+<div class="lly-slider  {% if section.blocks[1] != blank %}hasSec{% endif %}"  
   data-slick='{"dots": true,"arrows":false,"autoplay":{{section.settings.hero_home_auto}},"autoplaySpeed":{{section.settings.home_hero_auto_speed | divided_by: 0.001}}}'>
 
  {%- for block in section.blocks -%}
