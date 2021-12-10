@@ -5,12 +5,10 @@
       "blocks": {
         "16385194318b9c9a5b-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/image_12.jpg",
             "slide_colorfull": "CHRISTMAS",
             "slide_heading": "PLUSH LIGHT",
-            "slide_image": "shopify:\/\/shop_images\/1.png",
             "slide_subheading": "Enjoy this moment",
             "button_label": "Shop now >",
             "button_link": "shopify:\/\/products\/plush-light"
