@@ -1,52 +1,48 @@
+<link
+  rel="stylesheet"
+  href="{{ 'slideshow.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+/>
 
-<link rel="stylesheet" href="{{ 'slideshow.css' | asset_url }}" media="print" onload="this.media='all'">
+<div
+  class="lly-slider {% if section.blocks[1] != blank %}hasSec{% endif %}"
+  data-slick="{&quot;dots&quot;: true,&quot;arrows&quot;:false,&quot;autoplay&quot;:{{
+    section.settings.hero_home_auto
+  }},&quot;autoplaySpeed&quot;:{{
+    section.settings.home_hero_auto_speed | divided_by: 0.001
+  }}}"
+>
+  {%- for block in section.blocks -%}
+  <div class="slide-block">
+    <div class="text_conent">
+      {%- if block.settings.slide_colorfull != blank -%}
+      <span class="colorfull__text"> {{ block.settings.slide_colorfull }}</span>
+      {%- endif -%} {%- if block.settings.slide_heading != blank -%}
+      <span class="slide__title"> {{ block.settings.slide_heading }}</span>
+      {%- endif -%} {%- if block.settings.slide_image != blank -%}
+      <div class="slide__image">
+        <img
+          class="slide__image_img"
+          src="{{ block.settings.slide_image | img_url: 'large' }}"
+          loading="lazy"
+          alt="block.settings.slide_image.alt"
+        />
+      </div>
+      {%- endif -%} {%- if block.settings.slide_subheading != blank -%}
+      <span class="slide__subtitle">
+        {{ block.settings.slide_subheading }}</span
+      >
+      {%- endif -%} {%- if block.settings.button_label != blank -%}
+      <div class="button">
+        <a href="{{ block.settings.button_link }}">{{
+          block.settings.button_label | escape
+        }}</a>
+      </div>
+      {%- endif -%}
+    </div>
 
-
-
-
-
-
-
-  
-<div class="lly-slider  {% if section.blocks[1] != blank %}hasSec{% endif %}"  
-  data-slick='{"dots": true,"arrows":false,"autoplay":{{section.settings.hero_home_auto}},"autoplaySpeed":{{section.settings.home_hero_auto_speed | divided_by: 0.001}}}'>
-
- {%- for block in section.blocks -%}
-      <div class="slide-block">
-        <div class="text_conent"> 
-
-        {%- if block.settings.slide_colorfull != blank -%}
-          <span class="colorfull__text"> {{ block.settings.slide_colorfull }}</span>
-        {%- endif -%}
-
-        {%- if block.settings.slide_heading != blank -%}
-          <span class="slide__title"> {{ block.settings.slide_heading }}</span>
-        {%- endif -%}
-        {%- if block.settings.slide_image != blank -%}
-          <div class="slide__image"> 
-            <img class="slide__image_img" src="{{ block.settings.slide_image | img_url: 'large' }}" 
-             
-            loading="lazy"  
-            alt="block.settings.slide_image.alt"
-            > 
-          </div>
-        {%- endif -%}
-
-        {%- if block.settings.slide_subheading != blank -%}
-          <span class="slide__subtitle"> {{ block.settings.slide_subheading }}</span>
-        {%- endif -%}
-
-        {%- if block.settings.button_label != blank -%}
-         <div class="button">
-          <a  href="{{ block.settings.button_link }}" >{{ block.settings.button_label | escape }}</a>
-        </div>
-        {%- endif -%}
-
-
-        </div>
-
-
-        {%- if block.settings.image != blank -%}
+    {%- if block.settings.image != blank -%}
          <div class="media_wrapper">
           <img
           srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | img_url: '375x' }} 375w,{%- endif -%}
@@ -70,157 +66,37 @@
     
         </div>
   
-      </div>
+     
 
 
 
           
         {%- endif -%}
 
+    {%- if block.settings.image == blank and block.settings.video != blank -%}
+    <div class="media_wrapper">
+      <video src="{{ block.settings.video }}" autoplay muted loop></video>
+    </div>
 
+    {%- endif -%}  </div>{%- endfor -%}
+  </div>
 
+  <script></script>
 
-
-          {%- if block.settings.image == blank -%}
-         <div class="media_wrapper">
-          <video src="{{block.settings.image}}" autoplay muted loop></video>
-    
-        </div>
-  
-   
-
-
-
-          
-        {%- endif -%}
-
-       
-
-  {%- endfor -%}
-
-  
-
-
-  
-                                                                                                                                                                                                                                                                                                 
+  {% schema %} { "name":"幻灯片", "class":"lly-classtest", "settings": [ {
+  "type": "select", "id": "home_hero_height", "label": "幻灯片高度", "default":
+  "full", "options": [ { "value": "full", "label": "全屏" }, { "value": "adapt",
+  "label": "日后看情况增加" } ] }, { "type": "checkbox", "id": "hero_home_auto",
+  "label": "自动播放幻灯片", "default": false }, { "type": "range", "id":
+  "home_hero_auto_speed", "label":"幻灯片更改时间间隔", "max": 10, "min": 2,
+  "step": 1, "unit": " s", "default": 3 } ], "blocks": [ { "type": "slide",
+  "name": "幻灯片", "settings": [ { "type": "image_picker", "id": "image",
+  "label":"图片" }, { "type": "url", "id": "video", "label": "视频链接" }, {
+  "type": "header", "content": "文本" }, { "type": "text", "id":
+  "slide_colorfull", "label": "炫彩文字" }, { "type": "text", "id":
+  "slide_heading", "label": "标题" }, { "type": "image_picker", "id":
+  "slide_image", "label": "标题图片" }, { "type": "text", "id":
+  "slide_subheading", "label": "副标题" }, { "type": "text", "id":
+  "button_label", "label": "按钮文字" }, { "type": "url", "id": "button_link",
+  "label": "按钮链接" } ] } ] } {% endschema %}
 </div>
-
-
-<script>
-
-
-  
-
-
-
-</script>
-
-
-{% schema %}
-{
-  "name":"幻灯片",
-  "class":"lly-classtest",
- 
- "settings": [
- {
-   "type": "select",
-   "id": "home_hero_height",
-   "label": "幻灯片高度",
-   "default": "full",
-   "options": [
-     {
-       "value": "full",
-       "label":  "全屏"
-     },
-     {
-       "value": "adapt",
-       "label":  "日后看情况增加"
-    
-     }
-   ]
- },
- {
-   "type": "checkbox",
-   "id": "hero_home_auto",
-   "label": "自动播放幻灯片",
-   "default": false
- },
- {
-   "type": "range",
-   "id": "home_hero_auto_speed",
-   "label":"幻灯片更改时间间隔",
-   "max": 10,
-   "min": 2,
-   "step": 1,
-   "unit":  " s",
-    
-   "default": 3
- }
-],
-"blocks": [
-  {
-    "type": "slide",
-    "name": "幻灯片",
-    "settings": [
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label":"图片"
-          
-      },
-
-     {
-       "type": "url",
-       "id": "video",
-       "label": "视频链接"
-
-     },
-    
-     
-    
-      {
-        "type": "header",
-        "content": "文本"
-        
-      },
-      {
-        "type": "text",
-        "id": "slide_colorfull",
-        "label": "炫彩文字"
-      
-      },
-     
-      {
-        "type": "text",
-        "id": "slide_heading",
-        "label": "标题"
-        
-      },
-      {
-        "type": "image_picker",
-        "id": "slide_image",
-        "label": "标题图片"
-      },
-      {
-        "type": "text",
-        "id": "slide_subheading",
-        "label": "副标题"
-      
-      },
-    
-      {
-        "type": "text",
-        "id": "button_label",
-        "label": "按钮文字"
-      
-      },
-      {
-        "type": "url",
-        "id": "button_link",
-        "label": "按钮链接"
-      }
-    ]
-  }
-]
-}
-{% endschema %}
