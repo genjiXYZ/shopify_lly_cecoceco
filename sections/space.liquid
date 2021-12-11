@@ -11,7 +11,7 @@
 {%- endstyle -%}
 {% if section.settings %}
 
-<div class="mySpace">
+<div class="mySpace" id="{{section.settings.name}}">
 
 </div>
 
@@ -38,8 +38,14 @@
         "type": "text",
         "id":"color",
         "label": "颜色",
-        "default": "#000000",
-        "info": "不要有多余空格"
+        "default": "transpant",
+        "info": "eg:#000000 透明为transpant"
+      }
+      {
+        "type": "text",
+        "id":"name",
+        "label": "跳转标签名称",
+        "info": "id 名称"
       }
      
     
