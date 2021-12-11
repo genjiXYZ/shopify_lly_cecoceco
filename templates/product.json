@@ -288,14 +288,6 @@
         "name": "plush-light"
       }
     },
-    "163901692762b2fef8": {
-      "type": "space",
-      "settings": {
-        "height": 100,
-        "color": "",
-        "name": ""
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -388,7 +380,6 @@
     "1639016821199bc25d",
     "16390168548c8a87f3",
     "16392042009ffcdafd",
-    "163901692762b2fef8",
     "main",
     "1639016983ace3d9ce"
   ]
