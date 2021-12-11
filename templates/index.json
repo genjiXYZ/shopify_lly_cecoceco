@@ -3,17 +3,6 @@
     "1638519431d513694a": {
       "type": "slideshow",
       "blocks": {
-        "d3e5988b-4743-408c-9dff-bf75d10e867b": {
-          "type": "slide",
-          "settings": {
-            "video": "https:\/\/www.twinkly.com\/wp-content\/uploads\/2021\/11\/Chrismtas-cover-2021-v4-comp.mp4",
-            "slide_colorfull": "",
-            "slide_heading": "",
-            "slide_subheading": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "16385194318b9c9a5b-1": {
           "type": "slide",
           "settings": {
@@ -24,6 +13,17 @@
             "slide_subheading": "Enjoy this moment",
             "button_label": "Shop now >",
             "button_link": "shopify:\/\/products\/plush-light"
+          }
+        },
+        "d3e5988b-4743-408c-9dff-bf75d10e867b": {
+          "type": "slide",
+          "settings": {
+            "video": "https:\/\/www.twinkly.com\/wp-content\/uploads\/2021\/11\/Chrismtas-cover-2021-v4-comp.mp4",
+            "slide_colorfull": "",
+            "slide_heading": "",
+            "slide_subheading": "",
+            "button_label": "",
+            "button_link": ""
           }
         },
         "81a421aa-7fe2-4fc3-a866-4dbe6d9102a2": {
@@ -41,8 +41,8 @@
         }
       },
       "block_order": [
-        "d3e5988b-4743-408c-9dff-bf75d10e867b",
         "16385194318b9c9a5b-1",
+        "d3e5988b-4743-408c-9dff-bf75d10e867b",
         "81a421aa-7fe2-4fc3-a866-4dbe6d9102a2"
       ],
       "settings": {
