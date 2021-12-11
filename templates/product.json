@@ -280,11 +280,20 @@
         "layout": "text_first"
       }
     },
+    "16392042009ffcdafd": {
+      "type": "space",
+      "settings": {
+        "height": 16,
+        "color": "transparent",
+        "name": "plush-light"
+      }
+    },
     "163901692762b2fef8": {
       "type": "space",
       "settings": {
         "height": 100,
-        "color": ""
+        "color": "",
+        "name": ""
       }
     },
     "main": {
@@ -364,7 +373,8 @@
       "type": "space",
       "settings": {
         "height": 56,
-        "color": ""
+        "color": "transparent",
+        "name": ""
       }
     }
   },
@@ -377,6 +387,7 @@
     "1639016787bb48413a",
     "1639016821199bc25d",
     "16390168548c8a87f3",
+    "16392042009ffcdafd",
     "163901692762b2fef8",
     "main",
     "1639016983ace3d9ce"
