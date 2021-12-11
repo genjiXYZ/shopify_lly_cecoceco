@@ -5,7 +5,6 @@
       "blocks": {
         "16385194318b9c9a5b-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/image_12.jpg",
             "video": "",
@@ -31,7 +30,6 @@
         },
         "d3e5988b-4743-408c-9dff-bf75d10e867b": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "video": "https:\/\/www.twinkly.com\/wp-content\/uploads\/2021\/11\/Chrismtas-cover-2021-v4-comp.mp4",
             "slide_colorfull": "",
