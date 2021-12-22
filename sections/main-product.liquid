@@ -41,7 +41,7 @@
             {%- endunless -%}
           {%- endfor -%}
         </ul>
-        <div class="slider-buttons no-js-hidden{% if product.media.size < 2 %} small-hide{% endif %}">
+        <div class="slider-buttons no-js-hidden ">
           <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'accessibility.previous_slide' | t }}">{% render 'icon-caret' %}</button>
           <div class="slider-counter caption">
             <span class="slider-counter--current">1</span>
@@ -51,7 +51,48 @@
           </div>
           <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'accessibility.next_slide' | t }}">{% render 'icon-caret' %}</button>
         </div>
+
+        <div class="lly-bottom-slide">
+          <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'accessibility.previous_slide' | t }}">{% render 'icon-caret' %}</button>
+          <div class="lly-small-slide-ul" role="list">
+        
+            {%- for media in product.media -%}
+              {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
+                <div class="lly-small-slide-li" data-lly-index="{{ forloop.index }}" >
+                 <img
+                    srcset="{% if media.preview_image.width >= 288 %}{{ media.preview_image | img_url: '288x' }} 288w,{% endif %}
+                      {% if media.preview_image.width >= 576 %}{{ media.preview_image | img_url: '576x' }} 576w,{% endif %}
+                      {% if media.preview_image.width >= 750 %}{{ media.preview_image | img_url: '750x' }} 750w,{% endif %}
+                      {% if media.preview_image.width >= 1100 %}{{ media.preview_image | img_url: '1100x' }} 1100w,{% endif %}
+                      {% if media.preview_image.width >= 1500 %}{{ media.preview_image | img_url: '1500x' }} 1500w,{% endif %}
+                      {{ media.preview_image | img_url: 'master' }} {{ media.preview_image.width }}w"
+                    src="{{ media | img_url: '1500x' }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | times: 0.64 | round }}px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
+                    loading="lazy"
+                    width="100"
+                    height="{{ 100 | divided_by: media.preview_image.aspect_ratio }}"
+                    alt="{{ media.preview_image.alt | escape }}"
+                  > 
+                </div>
+              {%- endunless -%}
+            {%- endfor -%}
+          </div>
+  
+          <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'accessibility.next_slide' | t }}">{% render 'icon-caret' %}</button>
+        </div>
+
+       
+        <div > 
+      
+       
+      </div>
       </slider-component>
+
+      
+
+ 
+
+
       {%- if first_3d_model -%}
         <button
           class="button button--full-width product__xr-button"
@@ -76,6 +117,10 @@
           {%- when '@app' -%}
             {% render block %}
           {%- when 'text' -%}
+      
+          <p class="product__text__title{% if block.settings.text_style_title == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style_title == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
+            {{- block.settings.text_title -}}
+          </p>
             <p class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
               {{- block.settings.text -}}
             </p>
@@ -528,9 +573,35 @@
       "settings": [
         {
           "type": "text",
+          "id": "text_title",
+          "default": "Text block",
+          "label": "标题"
+        },
+        {
+          "type": "text",
           "id": "text",
           "default": "Text block",
           "label": "t:sections.main-product.blocks.text.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_style_title",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__2.label"
+            },
+            {
+              "value": "uppercase",
+              "label": "t:sections.main-product.blocks.text.settings.text_style.options__3.label"
+            }
+          ],
+          "default": "body",
+          "label": "标题样式"
         },
         {
           "type": "select",

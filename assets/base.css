@@ -1,6 +1,16 @@
 /* 修改 */
 
 /* 炫彩bar */
+
+.fcc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  word-wrap: break-word ;
+}
 .header-wrapper::before {
   content: "";
   width: 100%;
@@ -61,6 +71,54 @@
 }
 
 /* Color custom properties */
+
+
+/* 产品 幻灯片  小导航 */
+
+.lly-bottom-slide{
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (min-width: 750px) {
+  .lly-bottom-slide{
+    display: flex;
+    
+  }
+}
+.lly-small-slide-ul{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap:  nowrap ;
+  width: 100%;
+  overflow-x: scroll;
+  padding: 0 10px;
+  
+}
+.lly-small-slide-ul::-webkit-scrollbar{
+  display: none;
+}
+
+
+.lly-small-slide-li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  list-style: none;
+  border: 2px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+ 
+}
+
+.lly-small-slide-li img{
+pointer-events: none;
+ 
+}
 
 :root,
 .color-background-1 {
@@ -995,7 +1053,7 @@ summary::-webkit-details-marker {
 
 @media screen and (min-width: 750px) {
   .grid__item {
-    padding-left: 1rem;
+    padding: 1rem;
     padding-bottom: 1rem;
     width: calc(25% - 1rem * 3 / 4);
     max-width: 50%;
@@ -1059,7 +1117,7 @@ summary::-webkit-details-marker {
   }
 
   .grid--2-col-tablet .grid__item {
-    width: calc(50% - 1rem / 2);
+    /* width: calc(50% - 1rem / 2); */
   }
 }
 
@@ -1073,7 +1131,7 @@ summary::-webkit-details-marker {
   }
 
   .grid--2-col-desktop .grid__item {
-    width: calc(50% - 1rem / 2);
+    /* width: calc(50% - 1rem / 2); */
   }
 }
 
