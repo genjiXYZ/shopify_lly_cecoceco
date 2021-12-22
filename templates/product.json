@@ -332,6 +332,15 @@
             "show_dynamic_checkout": true
           }
         },
+        "8adb27c4-a23e-48a8-991a-7f96c0af799d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Enjoy this moment",
+            "content": "<p>Plush Light is an emotional experience. This unique lamp invokes light and warmth, able to exist in any corner of the home as a flexible lighting fixture. With woven fabric cover that is soft to the touch, Plush Light is seen not only by the eyes, but also felt by the hands and most importantly, the heart. It can be placed anywhere, perfectly integrated into the family environment, as a friend.<\/p>",
+            "page": "",
+            "icon": "heart"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -352,6 +361,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "8adb27c4-a23e-48a8-991a-7f96c0af799d",
         "description",
         "share"
       ],
