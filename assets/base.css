@@ -7,6 +7,20 @@
   justify-content: center;
   align-items: center;
 }
+.fcsc{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.footer-price{
+  
+}
+
+.foot_pro_text{
+margin: 0 20px;
+}
 
 p{
   word-wrap: break-word ;
@@ -118,6 +132,20 @@ p{
 .lly-small-slide-li img{
 pointer-events: none;
  
+}
+
+
+/* foot_pro */
+.foot_pro{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom:  0;
+  background-color: white;
+  border-top: 1px solid #ccc;
+  padding: 10px 40px;
+  color: #000;
 }
 
 :root,

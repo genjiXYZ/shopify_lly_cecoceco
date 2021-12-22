@@ -453,6 +453,39 @@
   {%- endfor -%}
 </section>
 
+<div class="foot_pro">
+
+  <div class="fcc">
+  <img
+   
+    src="{{product.media[0] | img_url: '1500x' }}"
+   
+    loading="lazy"
+    width="50"
+    height="{{ 50| divided_by: media.preview_image.aspect_ratio }}"
+    alt="{{ media.preview_image.alt | escape }}"
+  > 
+  <p class="fcsc foot_pro_text ">
+
+  <span class="foot_prop-title"></span>
+     {{product.title}}
+<span class="footer-price"> </span>
+   
+      
+      
+
+  </p>
+</div>
+  <div>
+  <a href="">buy</a>
+  
+  
+  </div>
+
+
+
+</div>
+
 {% javascript %}
   class ProductModal extends ModalDialog {
     constructor() {
@@ -511,6 +544,14 @@
       hiddenInput.value = event.currentTarget.value;
     });
   });
+
+
+  let Price =document.querySelector('.price-item').innerText
+  let FooterPrice =document.querySelector('.footer-price')
+  FooterPrice.innerText = Price
+  // let footerPrice = 
+
+
 </script>
 
 {%- if first_3d_model -%}
