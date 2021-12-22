@@ -341,6 +341,13 @@
             "icon": "heart"
           }
         },
+        "d152f5f4-6d5d-4143-b7c4-d52860efcc3f": {
+          "type": "text",
+          "settings": {
+            "text": "LIGHT SOURCE",
+            "text_style": "subtitle"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -362,6 +369,7 @@
         "quantity_selector",
         "buy_buttons",
         "8adb27c4-a23e-48a8-991a-7f96c0af799d",
+        "d152f5f4-6d5d-4143-b7c4-d52860efcc3f",
         "description",
         "share"
       ],
