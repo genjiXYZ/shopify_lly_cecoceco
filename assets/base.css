@@ -141,7 +141,12 @@ color: #000;
 border-radius: 20px;
 border: 2px solid black;
   }
-
+  @media screen and (max-width: 750px) {
+    .foot_pro_image{
+      display: none;
+      
+    }
+  }
 
   .foot_pro  .button:hover{
 
