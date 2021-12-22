@@ -2,25 +2,7 @@
 
 /* 炫彩bar */
 
-.fcc{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.fcsc{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-}
 
-.footer-price{
-  
-}
-
-.foot_pro_text{
-margin: 0 20px;
-}
 
 p{
   word-wrap: break-word ;
@@ -140,12 +122,54 @@ pointer-events: none;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   bottom:  0;
   background-color: white;
   border-top: 1px solid #ccc;
   padding: 10px 40px;
   color: #000;
+}
+
+.foot_pro  a{
+text-decoration: none;
+color: #000;
+ 
+}
+
+.foot_pro  .button{
+border-radius: 20px;
+border: 2px solid black;
+  }
+
+
+  .foot_pro  .button:hover{
+
+    background-color: black !important;
+  }
+
+  .foot_pro .button:hover a {
+    color: white !important;
+  }
+
+.fcc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fcsc{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.footer-price{
+  
+}
+
+.foot_pro_text{
+margin: 0 20px;
 }
 
 :root,
