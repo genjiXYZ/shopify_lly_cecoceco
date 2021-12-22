@@ -600,6 +600,7 @@ class SliderComponent extends HTMLElement {
     this.llySlideUl = this.querySelector(".lly-small-slide-ul");
     this.llyprevButton = this.querySelector('.lly-bottom-slide>button[name="previous"]');
     this.llynextButton = this.querySelector('.lly-bottom-slide>button[name="next"]');
+    this.llyliW  = this. llySlide[0].clientWidth
 
     if (!this.slider || !this.nextButton) return;
 
@@ -609,6 +610,7 @@ class SliderComponent extends HTMLElement {
     this.slider.addEventListener("scroll", this.update.bind(this));
     this.prevButton.addEventListener("click", this.onButtonClick.bind(this));
     this.nextButton.addEventListener("click", this.onButtonClick.bind(this));
+
     this.llyprevButton.addEventListener("click", this.onButtonClick.bind(this));
     this.llynextButton.addEventListener("click", this.onButtonClick.bind(this));
     this.llySlideUl.addEventListener("click", this.onClickSelecter.bind(this));
@@ -657,15 +659,24 @@ class SliderComponent extends HTMLElement {
       });
       this.llySlide[this.currentPage - 1].style.border = "2px solid white";
     }
-// console.log(this.llySlideUl.clientWidth)
-console.log("🚀 ~ file: global.js ~ line 661 ~ SliderComponent ~ update ~ this.llySlideUl.clientWidth", this.llySlideUl.clientWidth)
+  
+    
+
+    if ( this.llySlideUl.clientWidth < this.currentPage * (this.llyliW + 15) ) {
+
+      let pos2 = this.currentPage * (this.llyliW + 28) - this.llySlideUl.clientWidth
+      
+      this.llySlideUl.scrollTo({
+        left: pos2 ,
+      });
+    }
+
+
   }
 
   onButtonClick(event) {
     event.preventDefault();
-    console.log(this.slider.scrollLeft);
-    console.log("click scroll");
-    console.log(this.pageCount)
+
     const slideScrollPosition =
       event.currentTarget.name === "next"
         ? this.slider.scrollLeft + this.sliderLastItem.clientWidth
@@ -677,12 +688,12 @@ console.log("🚀 ~ file: global.js ~ line 661 ~ SliderComponent ~ update ~ this
 
   onClickSelecter(e) {
     e.preventDefault();
-    console.log(e)
+
 
     if (e.target.className == "lly-small-slide-li") {
 
 
-      console.log(e.target)
+
 
       let index = e.target.dataset.llyIndex;
       console.log("🚀 ~ file: global.js ~ line 676 ~ SliderComponent ~ onClickSelecter ~ index", index)

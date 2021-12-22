@@ -91,7 +91,10 @@ p{
   flex-wrap:  nowrap ;
   width: 100%;
   overflow-x: scroll;
-  padding: 0 10px;
+padding: 0;
+scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+   
   
 }
 .lly-small-slide-ul::-webkit-scrollbar{
@@ -125,10 +128,20 @@ pointer-events: none;
   align-items: center;
   position: fixed;
   bottom:  0;
+  z-index: 1000;
   background-color: white;
   border-top: 1px solid #ccc;
   padding: 10px 40px;
   color: #000;
+}
+
+@media screen and (max-width: 749px) {
+  .foot_pro{
+    padding: 10px 15px;
+    
+  }
+
+  
 }
 
 .foot_pro  a{
@@ -148,9 +161,27 @@ border: 2px solid black;
     }
   }
 
+   .foot_pro_image{
+   margin-right: 10px;
+    
+  }
+
   .foot_pro  .button:hover{
 
     background-color: black !important;
+  }
+
+  .foot_prop-title{
+    font-family: var(--font-heading-family);
+    font-style: var(--font-heading-style);
+    font-weight: var(--font-heading-weight);
+    line-height: 100%;
+  }
+  .footer-price{
+    font-family: var(--font-body-family);
+    font-style: var(--font-body-style);
+    font-weight: var(--font-body-weight);
+    line-height: 100%;
   }
 
   .foot_pro .button:hover a {
@@ -174,7 +205,7 @@ border: 2px solid black;
 }
 
 .foot_pro_text{
-margin: 0 20px;
+margin: 0;
 }
 
 :root,
