@@ -1,11 +1,14 @@
 /* 修改 */
 
 /* 炫彩bar */
+@media screen and (min-width: 750px) {
+  .llysiderLayout .grid__item {
+    width: 100% !important;
+  }
+}
 
-
-
-p{
-  word-wrap: break-word ;
+p {
+  word-wrap: break-word;
 }
 .header-wrapper::before {
   content: "";
@@ -68,41 +71,35 @@ p{
 
 /* Color custom properties */
 
-
 /* 产品 幻灯片  小导航 */
 
-.lly-bottom-slide{
+.lly-bottom-slide {
   display: none;
   justify-content: center;
   align-items: center;
 }
 
-
 @media screen and (min-width: 750px) {
-  .lly-bottom-slide{
+  .lly-bottom-slide {
     display: flex;
-    
   }
 }
-.lly-small-slide-ul{
+.lly-small-slide-ul {
   display: flex;
   justify-content: start;
   align-items: center;
-  flex-wrap:  nowrap ;
+  flex-wrap: nowrap;
   width: 100%;
   overflow-x: scroll;
-padding: 0;
-scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-   
-  
+  padding: 0;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
-.lly-small-slide-ul::-webkit-scrollbar{
+.lly-small-slide-ul::-webkit-scrollbar {
   display: none;
 }
 
-
-.lly-small-slide-li{
+.lly-small-slide-li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,23 +108,20 @@ scroll-snap-type: x mandatory;
   border: 2px solid black;
   box-sizing: border-box;
   cursor: pointer;
- 
 }
 
-.lly-small-slide-li img{
-pointer-events: none;
- 
+.lly-small-slide-li img {
+  pointer-events: none;
 }
-
 
 /* foot_pro */
-.foot_pro{
+.foot_pro {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  bottom:  0;
+  bottom: 0;
   z-index: 1000;
   background-color: white;
   border-top: 1px solid #ccc;
@@ -136,76 +130,68 @@ pointer-events: none;
 }
 
 @media screen and (max-width: 749px) {
-  .foot_pro{
+  .foot_pro {
     padding: 10px 15px;
-    
   }
-
-  
 }
 
-.foot_pro  a{
-text-decoration: none;
-color: #000;
- 
+.foot_pro a {
+  text-decoration: none;
+  color: #000;
 }
 
-.foot_pro  .button{
-border-radius: 20px;
-border: 2px solid black;
+.foot_pro .button {
+  border-radius: 20px;
+  border: 2px solid black;
+}
+@media screen and (max-width: 750px) {
+  .foot_pro_image {
+    display: none;
   }
-  @media screen and (max-width: 750px) {
-    .foot_pro_image{
-      display: none;
-      
-    }
-  }
+}
 
-   .foot_pro_image{
-   margin-right: 10px;
-    
-  }
+.foot_pro_image {
+  margin-right: 10px;
+}
 
-  .foot_pro  .button:hover{
+.foot_pro .button:hover {
+  background-color: black !important;
+}
 
-    background-color: black !important;
-  }
+.foot_prop-title {
+  font-family: var(--font-heading-family);
+  font-style: var(--font-heading-style);
+  font-weight: var(--font-heading-weight);
+  line-height: 100%;
+}
+.footer-price {
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
+  line-height: 100%;
+}
 
-  .foot_prop-title{
-    font-family: var(--font-heading-family);
-    font-style: var(--font-heading-style);
-    font-weight: var(--font-heading-weight);
-    line-height: 100%;
-  }
-  .footer-price{
-    font-family: var(--font-body-family);
-    font-style: var(--font-body-style);
-    font-weight: var(--font-body-weight);
-    line-height: 100%;
-  }
+.foot_pro .button:hover a {
+  color: white !important;
+}
 
-  .foot_pro .button:hover a {
-    color: white !important;
-  }
-
-.fcc{
+.fcc {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.fcsc{
+.fcsc {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
 }
 
-.footer-price{
-  
+.footer-price {
 }
 
-.foot_pro_text{
-margin: 0;
+.foot_pro_text {
+  margin: 0;
 }
 
 :root,
@@ -1205,7 +1191,7 @@ summary::-webkit-details-marker {
   }
 
   .grid--2-col-tablet .grid__item {
-    /* width: calc(50% - 1rem / 2); */
+    width: calc(50% - 1rem / 2);
   }
 }
 
@@ -1219,7 +1205,7 @@ summary::-webkit-details-marker {
   }
 
   .grid--2-col-desktop .grid__item {
-    /* width: calc(50% - 1rem / 2); */
+    width: calc(50% - 1rem / 2);
   }
 }
 
@@ -1391,7 +1377,7 @@ deferred-media {
   .shopify-challenge__button,
   .customer button {
     padding: 6px 22px 7px;
- height: 3.2rem;
+    height: 3.2rem;
   }
 }
 
