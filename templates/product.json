@@ -84,7 +84,7 @@
             "heading": "Spec.",
             "content": "<p><strong>LIGHT SOURCE:<\/strong><\/p><p>320 LED 7W 396LM 3000K CRI90<\/p><p>5 hours battery life with 8AA batteries or powered by AC adapter<\/p><p><strong>MATERIAL:<\/strong><\/p><p>Microfiber<\/p>",
             "page": "",
-            "icon": "box"
+            "icon": "ruler"
           }
         },
         "description": {
@@ -146,7 +146,7 @@
         "163901661664a58ee6-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Buy",
+            "button_label_1": "",
             "button_link_1": "https:\/\/www.cecoceco.com\/products\/plush-light\/#shopify-section-template--15316820820126__main",
             "button_style_secondary_1": false,
             "button_label_2": "Watch video",
