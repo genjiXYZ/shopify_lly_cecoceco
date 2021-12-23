@@ -13,6 +13,120 @@
         "show_rating": false
       }
     },
+    "16392042009ffcdafd": {
+      "type": "space",
+      "settings": {
+        "height": 16,
+        "color": "transparent",
+        "name": "plush-light"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text_title": "",
+            "text": "{{ product.vendor }}",
+            "text_style_title": "body",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text_title": "",
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style_title": "body",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "8adb27c4-a23e-48a8-991a-7f96c0af799d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Enjoy this moment",
+            "content": "<p>Plush Light is an emotional experience. This unique lamp invokes light and warmth, able to exist in any corner of the home as a flexible lighting fixture. With woven fabric cover that is soft to the touch, Plush Light is seen not only by the eyes, but also felt by the hands and most importantly, the heart. It can be placed anywhere, perfectly integrated into the family environment, as a friend.<\/p>",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "3821c4e0-370a-41e1-b24a-5ddac2d64447": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Spec.",
+            "content": "<p><strong>LIGHT SOURCE:<\/strong><\/p><p>320 LED 7W 396LM 3000K CRI90<\/p><p>5 hours battery life with 8AA batteries or powered by AC adapter<\/p><p><strong>MATERIAL:<\/strong><\/p><p>Microfiber<\/p>",
+            "page": "",
+            "icon": "box"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "8adb27c4-a23e-48a8-991a-7f96c0af799d",
+        "3821c4e0-370a-41e1-b24a-5ddac2d64447",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1640224218732c9d26": {
+      "type": "space",
+      "settings": {
+        "height": 32,
+        "color": "transparent",
+        "name": ""
+      }
+    },
     "16390166165cde3054": {
       "type": "image-banner",
       "blocks": {
@@ -280,101 +394,6 @@
         "layout": "text_first"
       }
     },
-    "16392042009ffcdafd": {
-      "type": "space",
-      "settings": {
-        "height": 16,
-        "color": "transparent",
-        "name": "plush-light"
-      }
-    },
-    "main": {
-      "type": "main-product",
-      "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text_title": "",
-            "text": "{{ product.vendor }}",
-            "text_style_title": "body",
-            "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "subtitle": {
-          "type": "text",
-          "settings": {
-            "text_title": "",
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style_title": "body",
-            "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "8adb27c4-a23e-48a8-991a-7f96c0af799d": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Enjoy this moment",
-            "content": "<p>Plush Light is an emotional experience. This unique lamp invokes light and warmth, able to exist in any corner of the home as a flexible lighting fixture. With woven fabric cover that is soft to the touch, Plush Light is seen not only by the eyes, but also felt by the hands and most importantly, the heart. It can be placed anywhere, perfectly integrated into the family environment, as a friend.<\/p>",
-            "page": "",
-            "icon": "heart"
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "title",
-        "subtitle",
-        "price",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
-        "8adb27c4-a23e-48a8-991a-7f96c0af799d",
-        "description",
-        "share"
-      ],
-      "settings": {
-        "enable_sticky_info": true,
-        "hide_variants": false,
-        "enable_video_looping": false
-      }
-    },
     "1639016983ace3d9ce": {
       "type": "space",
       "settings": {
@@ -386,6 +405,9 @@
   },
   "order": [
     "product-recommendations",
+    "16392042009ffcdafd",
+    "main",
+    "1640224218732c9d26",
     "16390166165cde3054",
     "1639016619c9327a14",
     "1639016722ba88c2d6",
@@ -393,8 +415,6 @@
     "1639016787bb48413a",
     "1639016821199bc25d",
     "16390168548c8a87f3",
-    "16392042009ffcdafd",
-    "main",
     "1639016983ace3d9ce"
   ]
 }
