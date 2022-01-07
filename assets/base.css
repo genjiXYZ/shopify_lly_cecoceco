@@ -123,10 +123,11 @@ p {
   position: fixed;
   bottom: 0;
   z-index: 1000;
-  background-color: white;
-  border-top: 1px solid #ccc;
+  background: rgba(0, 0, 0, 0.75);
+  border-top: 1px solid    rgba(34, 34, 34, 0.5);
+  backdrop-filter: blur(8px);
   padding: 10px 40px;
-  color: #000;
+  color: #fff;
 }
 
 @media screen and (max-width: 749px) {
@@ -137,12 +138,23 @@ p {
 
 .foot_pro a {
   text-decoration: none;
-  color: #000;
+  
 }
 
 .foot_pro .button {
   border-radius: 20px;
-  border: 2px solid black;
+  background-color: #1998F2 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+
+
+}
+.foot_pro .button a {
+
+  color: #fff !important;
+  
+
+
 }
 @media screen and (max-width: 750px) {
   .foot_pro_image {
@@ -155,7 +167,9 @@ p {
 }
 
 .foot_pro .button:hover {
-  background-color: black !important;
+  box-shadow: none !important;
+  background-color: #32AAFF !important;
+  color: #fff;
 }
 
 .foot_prop-title {
