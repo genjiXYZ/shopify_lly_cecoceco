@@ -1,3 +1,5 @@
+var scrollTopLly = querySelector('.button.scrolltop')
+console.log( scrollTopLly)
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
@@ -5,6 +7,8 @@ function getFocusableElements(container) {
     )
   );
 }
+
+
 
 const trapFocusHandlers = {};
 

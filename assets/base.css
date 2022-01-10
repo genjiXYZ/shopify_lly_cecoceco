@@ -1,5 +1,10 @@
 /* 修改 */
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* 炫彩bar */
 @media screen and (min-width: 750px) {
   .llysiderLayout .grid__item {
@@ -138,6 +143,8 @@ p {
 
 .foot_pro a {
   text-decoration: none;
+
+
   
 }
 
@@ -149,10 +156,10 @@ p {
 
 
 }
-.foot_pro .button a {
+.foot_pro a .button  {
 
   color: #fff !important;
-  
+ 
 
 
 }
