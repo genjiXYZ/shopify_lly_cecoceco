@@ -43,11 +43,20 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1641786145fa927b79": {
+      "type": "space",
+      "settings": {
+        "height": 100,
+        "color": "transparent",
+        "name": ""
+      }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "featured-products"
+    "featured-products",
+    "1641786145fa927b79"
   ]
 }
