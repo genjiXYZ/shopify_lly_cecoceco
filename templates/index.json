@@ -18,7 +18,6 @@
         },
         "16385194318b9c9a5b-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/image_12.jpg",
             "video": "",
@@ -49,7 +48,7 @@
       ],
       "settings": {
         "home_hero_height": "full",
-        "hero_home_auto": true,
+        "hero_home_auto": false,
         "home_hero_auto_speed": 5
       }
     },
