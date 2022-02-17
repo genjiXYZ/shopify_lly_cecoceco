@@ -228,6 +228,8 @@
         "e695f5cc-83ee-46c5-8ece-f05b02e8b588"
       ],
       "settings": {
+        "paddingY": "100px",
+        "paddingX": "100px",
         "height": "adapt",
         "color_scheme": "background-1",
         "outside_color": "transparent",
