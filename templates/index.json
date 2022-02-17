@@ -190,35 +190,45 @@
     "1645028353dd9cbe4a": {
       "type": "image-slick",
       "blocks": {
-        "16450283531a32ff52-0": {
-          "type": "heading",
+        "be327956-cf3a-451b-abc5-6422c0effffc": {
+          "type": "image",
           "settings": {
-            "heading": "Image with text"
+            "image": "shopify:\/\/shop_images\/banner-app.jpg"
           }
         },
-        "16450283531a32ff52-1": {
-          "type": "text",
+        "d0d29899-cc52-4e7f-8472-854cd2c3eb65": {
+          "type": "image",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/image_13.jpg"
           }
         },
-        "16450283531a32ff52-2": {
-          "type": "button",
+        "76bc8b91-0f58-4402-8727-b2c2ba507956": {
+          "type": "image",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/3_e1b210ec-b5c0-4a78-a479-639453c0079c.jpg"
+          }
+        },
+        "948ab099-28b3-4771-8a59-55687041b545": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_12.jpg"
+          }
+        },
+        "e695f5cc-83ee-46c5-8ece-f05b02e8b588": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_1fc052aa-378a-45c0-a938-3901314706c5.jpg"
           }
         }
       },
       "block_order": [
-        "16450283531a32ff52-0",
-        "16450283531a32ff52-1",
-        "16450283531a32ff52-2"
+        "be327956-cf3a-451b-abc5-6422c0effffc",
+        "d0d29899-cc52-4e7f-8472-854cd2c3eb65",
+        "76bc8b91-0f58-4402-8727-b2c2ba507956",
+        "948ab099-28b3-4771-8a59-55687041b545",
+        "e695f5cc-83ee-46c5-8ece-f05b02e8b588"
       ],
       "settings": {
-        "image1": "shopify:\/\/shop_images\/banner-app.png",
-        "image2": "shopify:\/\/shop_images\/1_b8cb207d-2613-4b71-8f94-0b8e09aa4603.jpg",
-        "image4": "shopify:\/\/shop_images\/3_e1b210ec-b5c0-4a78-a479-639453c0079c.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "outside_color": "transparent",
