@@ -208,6 +208,21 @@ p {
   flex-direction: column;
 }
 
+.fccc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.border-1{
+  border: 2px solid orange;
+}
+
+.w-full{
+  width: 100%;
+}
 .footer-price {
 }
 
