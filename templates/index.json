@@ -263,13 +263,21 @@
             "downloadlabel": "link name",
             "download": "https:\/\/baidu.com"
           }
+        },
+        "900c203f-351c-4644-a317-966ec5fff929": {
+          "type": "link",
+          "settings": {
+            "downloadlabel": "link name 2",
+            "download": "http:\/\/baidu.com"
+          }
         }
       },
       "block_order": [
         "16459425461bad7266-0",
         "16459425461bad7266-1",
         "cdd0c471-4a81-4619-a7a7-fee0e4bb66de",
-        "16459425461bad7266-2"
+        "16459425461bad7266-2",
+        "900c203f-351c-4644-a317-966ec5fff929"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-app.jpg",
