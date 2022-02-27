@@ -276,6 +276,12 @@
             "downloadlabel": "link name 2",
             "download": "http:\/\/baidu.com"
           }
+        },
+        "c02ec130-21e7-40bf-bf55-a80561175a1f": {
+          "type": "content",
+          "settings": {
+            "des": "Clip x10"
+          }
         }
       },
       "block_order": [
@@ -284,7 +290,8 @@
         "cdd0c471-4a81-4619-a7a7-fee0e4bb66de",
         "79d109a4-d94b-41e6-b498-bde73d85208e",
         "16459425461bad7266-2",
-        "900c203f-351c-4644-a317-966ec5fff929"
+        "900c203f-351c-4644-a317-966ec5fff929",
+        "c02ec130-21e7-40bf-bf55-a80561175a1f"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-app.jpg",
