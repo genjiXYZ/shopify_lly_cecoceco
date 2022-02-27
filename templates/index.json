@@ -263,6 +263,18 @@
             "des": "Wall Adapter"
           }
         },
+        "c02ec130-21e7-40bf-bf55-a80561175a1f": {
+          "type": "content",
+          "settings": {
+            "des": "Clip x10"
+          }
+        },
+        "2c3ca601-7ec8-4042-b172-6ece24517ee9": {
+          "type": "content",
+          "settings": {
+            "des": "Tie x4"
+          }
+        },
         "16459425461bad7266-2": {
           "type": "link",
           "settings": {
@@ -276,12 +288,6 @@
             "downloadlabel": "link name 2",
             "download": "http:\/\/baidu.com"
           }
-        },
-        "c02ec130-21e7-40bf-bf55-a80561175a1f": {
-          "type": "content",
-          "settings": {
-            "des": "Clip x10"
-          }
         }
       },
       "block_order": [
@@ -289,13 +295,14 @@
         "16459425461bad7266-1",
         "cdd0c471-4a81-4619-a7a7-fee0e4bb66de",
         "79d109a4-d94b-41e6-b498-bde73d85208e",
+        "c02ec130-21e7-40bf-bf55-a80561175a1f",
+        "2c3ca601-7ec8-4042-b172-6ece24517ee9",
         "16459425461bad7266-2",
-        "900c203f-351c-4644-a317-966ec5fff929",
-        "c02ec130-21e7-40bf-bf55-a80561175a1f"
+        "900c203f-351c-4644-a317-966ec5fff929"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-app.jpg",
-        "color": "#f02b2e"
+        "color": "#ffffff"
       }
     }
   },
