@@ -238,17 +238,8 @@
     },
     "1645940654ebd8d9e2": {
       "type": "list",
-      "blocks": {
-        "1645940654785190b0-0": {
-          "type": "image",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1645940654785190b0-0"
-      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/banner-app.jpg",
         "paddingY": "0px",
         "paddingX": "0px",
         "height": "adapt",
