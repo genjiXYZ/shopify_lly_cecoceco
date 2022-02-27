@@ -242,19 +242,25 @@
         "16459425461bad7266-0": {
           "type": "title",
           "settings": {
-            "title": "title2"
+            "title": "Included in the box"
           }
         },
         "16459425461bad7266-1": {
           "type": "content",
           "settings": {
-            "des": "content1"
+            "des": "Push Light 2.0"
           }
         },
         "cdd0c471-4a81-4619-a7a7-fee0e4bb66de": {
           "type": "content",
           "settings": {
-            "des": "content2"
+            "des": "Controller"
+          }
+        },
+        "79d109a4-d94b-41e6-b498-bde73d85208e": {
+          "type": "content",
+          "settings": {
+            "des": "Wall Adapter"
           }
         },
         "16459425461bad7266-2": {
@@ -276,6 +282,7 @@
         "16459425461bad7266-0",
         "16459425461bad7266-1",
         "cdd0c471-4a81-4619-a7a7-fee0e4bb66de",
+        "79d109a4-d94b-41e6-b498-bde73d85208e",
         "16459425461bad7266-2",
         "900c203f-351c-4644-a317-966ec5fff929"
       ],
