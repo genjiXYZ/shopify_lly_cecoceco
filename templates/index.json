@@ -236,16 +236,43 @@
         "layout": "image_first"
       }
     },
-    "1645940654ebd8d9e2": {
+    "16459425466a66d8f5": {
       "type": "list",
+      "blocks": {
+        "16459425461bad7266-0": {
+          "type": "title",
+          "settings": {
+            "title": "title2"
+          }
+        },
+        "16459425461bad7266-1": {
+          "type": "content",
+          "settings": {
+            "des": "content1"
+          }
+        },
+        "cdd0c471-4a81-4619-a7a7-fee0e4bb66de": {
+          "type": "content",
+          "settings": {
+            "des": "content2"
+          }
+        },
+        "16459425461bad7266-2": {
+          "type": "link",
+          "settings": {
+            "downloadlabel": "link name",
+            "download": "https:\/\/baidu.com"
+          }
+        }
+      },
+      "block_order": [
+        "16459425461bad7266-0",
+        "16459425461bad7266-1",
+        "cdd0c471-4a81-4619-a7a7-fee0e4bb66de",
+        "16459425461bad7266-2"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-app.jpg",
-        "paddingY": "0px",
-        "paddingX": "0px",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "image_first"
+        "image": "shopify:\/\/shop_images\/banner-app.jpg"
       }
     }
   },
@@ -256,6 +283,6 @@
     "16390157659e3317e6",
     "1639015955499070d5",
     "1645028353dd9cbe4a",
-    "1645940654ebd8d9e2"
+    "16459425466a66d8f5"
   ]
 }
