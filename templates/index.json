@@ -272,7 +272,8 @@
         "16459425461bad7266-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-app.jpg"
+        "image": "shopify:\/\/shop_images\/banner-app.jpg",
+        "color": "#f02b2e"
       }
     }
   },
