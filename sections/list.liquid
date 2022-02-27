@@ -1,12 +1,10 @@
 
 {%- style -%}
 
-.items-list{
+.item-list-wrapper{
     background-color: {{ section.settings.color }};
 }
 
-{%- endstyle -%}
-<style>
 .item-list{
     display: flex;
     justify-content: center;
@@ -14,6 +12,7 @@
     height: 50vh;
     padding-top : 100px;
     padding-bottom:100px;
+  
 }
 .item-list-box{
     width: 50%;
@@ -34,12 +33,54 @@
     flex-direction: column;
 }
 
+.item-list .title{
+    font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+}
+
+.item-list .des{
+    font-size: 16px;
+line-height: 150%;
+}
+
+.item-list .llylink{
+    
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding:17px;
+}
+.item-list .llylinkname{
+    font-weight: 600;
+font-size: 14px;
+line-height: 120%;
+
+}
+.llylink{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.linkcontent{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left:7px;
+}
+
+{%- endstyle -%}
+<style>
+
+
 </style>
 
+<div class="item-list-wrapper">
 
 <div class="item-list page-width ">
 
-    {{section.settings.color}}
+    
     <div class="item-list-box">
         <img
             srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image | img_url: '375x' }} 375w,{%- endif -%}
@@ -66,7 +107,7 @@
             {%- case block.type -%}
               {%- when 'title' -%}
                 {%- if block.settings.title != blank -%}
-                  <div>{{ block.settings.title }}</div>
+                  <div class="title">{{ block.settings.title }}</div>
                   {%- endif -%}
 
                   {%- when 'content' -%}
@@ -77,8 +118,27 @@
 
                       {%- when 'link' -%}
                         {%- if block.settings.downloadlabel != blank -%}
-                            <div>{{ block.settings.downloadlabel }}</div>
-                            <div>{{ block.settings.download }}</div>
+<div class="llylink ">       
+ <div class="fcc">{% render 'icon-download' %}</div>
+   
+    <div class="linkcontent">
+
+<div class="llylinkname"> {{ block.settings.downloadlabel }}</div>
+<div class="llylinkdes"> Download</div>
+
+       
+     <div>
+    
+  
+    
+</div>
+
+
+
+</div> 
+</div>
+                            
+                      
                           {%- endif -%}
 
 
@@ -93,6 +153,11 @@
 
 
 </div>
+
+</div>
+
+
+
 
 
 {% schema %}
