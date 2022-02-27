@@ -278,8 +278,8 @@ background-color: #ffffff !important;
 .slick-dotted.slick-slider {
 }
 
-.hasSec  .slick-dots{
-  display: flex;
+.slick-dots{
+  display: flex !important; 
 }
 
 .slick-dots {
