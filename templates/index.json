@@ -235,6 +235,27 @@
         "outside_color": "transparent",
         "layout": "image_first"
       }
+    },
+    "1645940654ebd8d9e2": {
+      "type": "list",
+      "blocks": {
+        "1645940654785190b0-0": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1645940654785190b0-0"
+      ],
+      "settings": {
+        "paddingY": "0px",
+        "paddingX": "0px",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "outside_color": "transparent",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -243,6 +264,7 @@
     "1639015656111bef1b",
     "16390157659e3317e6",
     "1639015955499070d5",
-    "1645028353dd9cbe4a"
+    "1645028353dd9cbe4a",
+    "1645940654ebd8d9e2"
   ]
 }
