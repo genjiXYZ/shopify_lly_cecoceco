@@ -303,6 +303,38 @@
         "image": "shopify:\/\/shop_images\/banner-app.jpg",
         "color": "#ffffff"
       }
+    },
+    "16460478827799de33": {
+      "type": "tabs",
+      "blocks": {
+        "1646047882bb4f685e-0": {
+          "type": "title",
+          "settings": {
+            "title": ""
+          }
+        },
+        "1646047882bb4f685e-1": {
+          "type": "content",
+          "settings": {
+            "des": ""
+          }
+        },
+        "1646047882bb4f685e-2": {
+          "type": "link",
+          "settings": {
+            "downloadlabel": "",
+            "download": ""
+          }
+        }
+      },
+      "block_order": [
+        "1646047882bb4f685e-0",
+        "1646047882bb4f685e-1",
+        "1646047882bb4f685e-2"
+      ],
+      "settings": {
+        "color": ""
+      }
     }
   },
   "order": [
@@ -312,6 +344,7 @@
     "16390157659e3317e6",
     "1639015955499070d5",
     "1645028353dd9cbe4a",
-    "16459425466a66d8f5"
+    "16459425466a66d8f5",
+    "16460478827799de33"
   ]
 }
