@@ -331,7 +331,9 @@
         "8775f2b8-90fb-493d-a805-c15d91e2bd15"
       ],
       "settings": {
-        "color": "#e11c1c"
+        "color": "#e11c1c",
+        "color2": "#6e4a4a",
+        "scolor": "#402fc1"
       }
     }
   },
