@@ -228,12 +228,11 @@
         "e695f5cc-83ee-46c5-8ece-f05b02e8b588"
       ],
       "settings": {
+        "color": "#ffffff",
+        "colorbtn": "#848383",
+        "colorbtn2": "#504747",
         "paddingY": "100px",
-        "paddingX": "100px",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "image_first"
+        "paddingX": "100px"
       }
     },
     "16459425466a66d8f5": {
