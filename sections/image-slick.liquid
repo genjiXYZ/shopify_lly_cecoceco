@@ -10,16 +10,24 @@
      */
      padding:0;
      padding-bottom:40px;
-    background-color:#ccc;
+    background-color:{{ section.settings.color }};
     overflow:hidden;
    
     margin: 0 auto;
    
 
   }
+
+  .lly-image-slick .slick-dots li.slick-active button:before{
+    background-color:{{ section.settings.colorbtn2 }};
+  }
+
+  .lly-image-slick .slick-dots li button:before {
+    background-color:{{ section.settings.colorbtn }};
+  }
 .lly-testdd{
 
-height:60vh;
+height:30vh;
   background-color:gray;
 margin:0 20px 0;
 
@@ -38,7 +46,7 @@ height:100%;
 <div class="lly-image-slick fccc  ">
 
  
-  <div class="lly-slick  border-1 w-full">
+  <div class="lly-slick   w-full">
     {%- for block in section.blocks -%}
 
 
@@ -89,11 +97,28 @@ height:100%;
 "name": "多个图片轮播",
 "class": "spaced-section spaced-section--full-width",
 "settings": [
+
+
 {
-"type": "image_picker",
-"id": "image",
-"label": "图片"
-},
+  "type": "color",
+  "id": "color",
+  "label": "背景颜色"
+  },
+
+  {
+    "type": "color",
+    "id": "colorbtn",
+    "label": "按钮颜色"
+    },
+
+    {
+      "type": "color",
+      "id": "colorbtn2",
+      "label": "选中按钮颜色"
+      },
+    
+  
+  
 {
   "type": "text",
   "id": "paddingY",
@@ -106,80 +131,9 @@ height:100%;
     "default": "0px",
     "label": "左右padding"
     
-    },
+    }
 
-{
-"type": "select",
-"id": "height",
-"options": [
-{
-"value": "adapt",
-"label": "t:sections.image-with-text.settings.height.options__1.label"
-},
-{
-"value": "small",
-"label": "t:sections.image-with-text.settings.height.options__2.label"
-},
-{
-"value": "large",
-"label": "t:sections.image-with-text.settings.height.options__3.label"
-}
-],
-"default": "adapt",
-"label": "t:sections.image-with-text.settings.height.label"
-},
-{
-"type": "select",
-"id": "color_scheme",
-"options": [
-{
-"value": "background-1",
-"label": "t:sections.image-with-text.settings.color_scheme.options__1.label"
-},
-{
-"value": "background-2",
-"label": "t:sections.image-with-text.settings.color_scheme.options__2.label"
-},
-{
-"value": "inverse",
-"label": "t:sections.image-with-text.settings.color_scheme.options__3.label"
-},
-{
-"value": "accent-1",
-"label": "t:sections.image-with-text.settings.color_scheme.options__4.label"
-},
-{
-"value": "accent-2",
-"label": "t:sections.image-with-text.settings.color_scheme.options__5.label"
-}
-],
-"default": "background-1",
-"label": "t:sections.image-with-text.settings.color_scheme.label"
-},
-{
-"type": "text",
-"id": "outside_color",
-"default": "transparent",
-"label": "边框颜色",
-"info":"例如 :#000000 不要有多余字符串 默认为透明"
-},
-{
-"type": "select",
-"id": "layout",
-"options": [
-{
-"value": "image_first",
-"label": "t:sections.image-with-text.settings.layout.options__1.label"
-},
-{
-"value": "text_first",
-"label": "t:sections.image-with-text.settings.layout.options__2.label"
-}
-],
-"default": "image_first",
-"label": "t:sections.image-with-text.settings.layout.label",
-"info": "t:sections.image-with-text.settings.layout.info"
-}
+
 ],
 "blocks": [
 {

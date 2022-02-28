@@ -1,0 +1,114 @@
+{% javascript %}
+     $(document).ready(function() {
+     $(".tab li").click(function() {
+         $(".tab li").eq($(this).index()).addClass("cur").siblings().removeClass('cur');
+         $("div").hide().eq($(this).index()).show();
+         //另一种方法: $("div").eq($(".tab li").index(this)).addClass("on").siblings().removeClass('on'); 
+
+     });
+ });
+
+
+
+
+{% endjavascript %}
+
+
+<div>
+    <ul class="llytab">
+        <li>最新</li>
+        <li class="cur">热门</li>
+        <li>新闻</li>
+    </ul>
+    <div>11</div>
+    <div class="on">22</div>
+    <div>33</div>
+
+
+</div>
+
+
+{% schema %}
+{
+"name": "选项卡",
+"settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "图片"
+},
+{
+"type": "color",
+"id": "color",
+"label": "背景颜色"
+}
+
+
+],
+"blocks": [
+
+
+{
+"type":"title",
+"name":"标题",
+"settings":[
+{
+"type": "text",
+"id":"title",
+
+"label": "标题"
+}
+]
+},
+{
+"type":"content",
+"name":"内容",
+"settings":[
+{
+"type": "text",
+"id":"des",
+"label": "内容"
+}
+]
+}
+,{
+"type":"link",
+"name":"链接",
+"settings":[
+{
+"type": "text",
+"id":"downloadlabel",
+"label": "链接名"
+},
+{
+"type": "text",
+"id":"download",
+"label": "链接"
+}
+]
+}
+
+
+
+
+],
+"presets": [
+{
+"name": "选项卡",
+"blocks": [
+{
+"type": "title"
+},
+{
+"type": "content"
+},
+{
+"type": "link"
+}
+
+
+]
+}
+]
+}
+{% endschema %}

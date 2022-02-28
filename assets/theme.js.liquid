@@ -12,25 +12,26 @@ $(".lly-slick").slick({
 
   centerMode: true,
   centerPadding: '20px',
-  slidesToShow: 2,
+  slidesToShow: 3,
   dots: true,
   infinite: true,
+  arrows: false,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 1280,
       settings: {
- 
-        centerMode: true,
+        variableWidth: true,
+        arrows: false,
         centerPadding: '20px',
-        slidesToShow: 2,
+        slidesToShow: 3,
         dots: true,
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 750,
       settings: {
-  
-        centerMode: true,
+        variableWidth: true,
+        arrows: false,
         centerPadding: '20px',
         slidesToShow: 1,
         dots: true,

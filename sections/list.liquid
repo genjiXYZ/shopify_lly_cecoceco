@@ -7,15 +7,33 @@ color:black;
 
 }
 
+
+@media screen and (max-width: 750px) {
+    .item-list{flex-direction: column;}
+}
+
+
+
+
 .item-list{
 display: flex;
 justify-content: center;
 align-items: center;
-height: 50vh;
+min-height: 50vh;
 padding-top : 100px;
 padding-bottom:100px;
+overflow:hidden;
 
 }
+
+@media screen and (max-width: 750px) {
+    .item-list-box{
+        width: 100% !important;
+   
+    }
+}
+
+
 .item-list-box{
 width: 50%;
 height: 100%;
@@ -25,7 +43,7 @@ padding:20px;
 display:block;
 width:100%;
 height:100%;
-object-fit:cover;
+object-fit:contain;
 
 }
 .item-list-box.des {
@@ -39,7 +57,9 @@ flex-direction: column;
 font-weight: 600;
 font-size: 40px;
 line-height: 120%;
+margin-bottom:16px;
 }
+
 
 .item-list .des{
 font-size: 16px;
@@ -57,14 +77,17 @@ padding:17px;
 font-weight: 600;
 font-size: 14px;
 line-height: 120%;
-margin-bottom:16px;
+
 
 }
 .llylink{
 display: flex;
-justify-content: center;
-align-items: flex-start;
+justify-content: flex-start;
+align-items: center;
 margin-right:18px;
+min-width:200px;
+position:relative;
+
 }
 .linkcontent{
 display: flex;
@@ -74,15 +97,48 @@ flex-direction: column;
 margin-left:7px;
 }
 
+.llylink a { position:absolute;
+width:100%;
+height:100%;
+top:0;
+left:0;
+color:transparent;}
+
 
 .llylinkdes{
     font-size: 10px;
 line-height: 120%;
 }
 
-.buttoncontent{
-    margin-top:50px
+@media screen and (max-width: 749px) {
+    .buttoncontent{
+    margin-top:24px !important;
 }
+}
+
+@media screen and (min-width: 750px) {
+    .buttoncontent{
+    margin-top:50px;
+}
+}
+
+
+@media screen and (max-width: 749px) {
+    .buttoncontent{
+        flex-direction: column;
+}
+
+.llylink{
+    
+    margin-bottom:24px;
+    margin-right:0px;
+}
+
+
+}
+/* .buttoncontent{
+    margin-top:50px
+} */
 {%- endstyle -%}
 <style>
 
@@ -144,11 +200,11 @@ line-height: 120%;
                     <div class="fcc">{% render 'icon-download' %}</div>
 
                     <div class="linkcontent">
-
+                           
                         <div class="llylinkname"> {{ block.settings.downloadlabel }}</div>
                         <div class="llylinkdes"> Download</div>
 
-
+                       
                         <div>
 
 
@@ -158,6 +214,8 @@ line-height: 120%;
 
 
                     </div>
+
+                    <a href="{{ block.settings.download }}" target="_blank">{{ block.settings.download }}</a>
                 </div>
 
 
