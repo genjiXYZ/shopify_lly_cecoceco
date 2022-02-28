@@ -311,6 +311,7 @@
           "type": "title",
           "settings": {
             "title": "tab1",
+            "test": "1111",
             "image": "shopify:\/\/shop_images\/image_13.jpg",
             "icon": "check_mark"
           }
@@ -319,6 +320,7 @@
           "type": "title",
           "settings": {
             "title": "tabs2",
+            "test": "2222",
             "image": "shopify:\/\/shop_images\/image_13.jpg",
             "icon": "check_mark"
           }
