@@ -2,6 +2,7 @@
 .llytab-box{
 padding:20px 0;
 background-color: {{ section.settings.color }};
+color:{{ section.settings.color2 }};
 }
 
 .showPlace{
@@ -41,13 +42,24 @@ margin-top:20px;
 }
 .llytab li{
 list-style: none;
-
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
 padding: 5px 10px;
+
 }
 .llytab li.cur {
-background:blue;
+
+color:{{ section.settings.scolor }};
 }
 
+.llytab li svg {
+fill:{{section.settings.color2}};
+margin-right:10px;
+}
+.llytab li.cur svg {
+fill:{{section.settings.scolor}};
+}
 
 
 {%- endstyle -%}
