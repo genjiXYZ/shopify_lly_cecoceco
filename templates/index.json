@@ -228,9 +228,9 @@
         "e695f5cc-83ee-46c5-8ece-f05b02e8b588"
       ],
       "settings": {
-        "color": "#ffffff",
-        "colorbtn": "#848383",
-        "colorbtn2": "#504747",
+        "color": "#d11f1f",
+        "colorbtn": "#b96767",
+        "colorbtn2": "#2b0d0d",
         "paddingY": "100px",
         "paddingX": "100px"
       }
