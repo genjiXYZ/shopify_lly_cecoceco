@@ -1,8 +1,8 @@
-
 {% stylesheet %}
-    .llytab-box{
-    padding:20px 0;
-    }
+.llytab-box{
+padding:20px 0;
+background-color: {{ section.settings.color }};
+}
 
 .showPlace{
 width:100%;
@@ -10,29 +10,45 @@ height:50vh;
 background-color:#ccc;
 
 }
+
+
 .showPlace div{
-    display:none;
+display:none;
+}
+.llycontainer
+{
+width:100%;
+height:100%;
 }
 
-.showPlace .fs{
-    display:block;
+.llycontainer img
+{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.showPlace .llycontainer_1{
+display:block;
 }
 .llytab{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding:0 ;
-    margin:0;
-    margin-top:20px;
+display:flex;
+justify-content: center;
+align-items: center;
+padding:0 ;
+margin:0;
+margin-top:20px;
 }
-.llytab  li{
-    list-style: none;
- 
-    padding: 5px 10px;
+.llytab li{
+list-style: none;
+
+padding: 5px 10px;
 }
-.llytab  li.cur {
-	background:blue;
-} 
+.llytab li.cur {
+background:blue;
+}
+
+
 
 {% endstylesheet %}
 
@@ -40,40 +56,58 @@ background-color:#ccc;
 
     <div class="page-width">
 
-    <div class="showPlace">
-        <div class="fs"></div>
-        <div >22</div>
-        <div>33</div>
-    </div>
+        <div class="showPlace">
+            {% for block in section.blocks %}
+
+            {%- if block.settings.image != blank -%}
+            <div class="llycontainer llycontainer_{{ forloop.index }}"> <img srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | img_url: '375x' }} 375w,{%- endif -%}
+                        {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | img_url: '750x' }} 750w,{%- endif -%}
+                        {%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | img_url: '1100x' }} 1100w,{%- endif -%}
+                        {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}
+                        {%- if block.settings.image.width >= 1780 -%}{{ block.settings.image | img_url: '1780x' }} 1780w,{%- endif -%}
+                        {%- if block.settings.image.width >= 2000 -%}{{ block.settings.image | img_url: '2000x' }} 2000w,{%- endif -%}
+                        {%- if block.settings.image.width >= 3000 -%}{{ block.settings.image | img_url: '3000x' }} 3000w,{%- endif -%}
+                        {%- if block.settings.image.width >= 3840 -%}{{ block.settings.image | img_url: '3840x' }} 3840w,{%- endif -%}
+                        {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
+                    sizes="{% if block.settings.image_2 != blank and block.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif block.settings.image_2 != blank %}50vw{% else %}100vw{% endif %}"
+                    src="{{ block.settings.image | img_url: '1500x' }}" loading="lazy"
+                    alt="{{ block.settings.image.alt | escape }}" width="{{ block.settings.image.width }}"
+                    height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio }}" {% if
+                    block.settings.image_2 !=blank %}class="banner__media-image-half" {% endif %}>
+            </div>
+
+            {%- endif -%}
+            {% endfor %}
+        </div>
 
 
 
-    <div>
-        <ul class="llytab"> 
-           {% for block in section.blocks %}
-            {% case block.type %}
+        <div>
+            <ul class="llytab">
+                {% for block in section.blocks %}
+                {% case block.type %}
                 {%- when 'title' -%}
-                    {%- if block.settings.title != blank -%}
-                        <li class="dddddd">
-                            {% render 'icon-accordion', icon: block.settings.icon %}{{block.settings.title}}
-                        </li>
-                        {%- endif -%}
-                
-                    
+                {%- if block.settings.title != blank -%}
+                <li class="tab {% if forloop.index == 1  %}cur{% endif %}">
+                    {% render 'icon-accordion', icon: block.settings.icon %}{{block.settings.title}}
+                </li>
+                {%- endif -%}
 
 
 
-            {% endcase %}
+
+
+                {% endcase %}
 
 
 
-           {% endfor %}
-        </ul>
+                {% endfor %}
+            </ul>
+        </div>
+
+
+
     </div>
-
-    
-
-</div>
 </div>
 
 
@@ -108,118 +142,118 @@ background-color:#ccc;
 "id":"title",
 "label": "标题"
 },{
-    "type": "text",
-    "id":"test",
-    "label": "内容"
-    },{
+"type": "text",
+"id":"test",
+"label": "内容"
+},{
 "type":"image_picker",
 "id":"image",
 "label":"图片"
 },
 {
-    "type": "select",
-    "id": "icon",
-    "options": [
-      {
-        "value": "none",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__1.label"
-      },
-      {
-        "value": "box",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__2.label"
-      },
-      {
-        "value": "chat_bubble",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__3.label"
-      },
-      {
-        "value": "check_mark",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__4.label"
-      },
-      {
-        "value": "dryer",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__5.label"
-      },
-      {
-        "value": "eye",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__6.label"
-      },
-      {
-        "value": "heart",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__7.label"
-      },
-      {
-        "value": "iron",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__8.label"
-      },
-      {
-        "value": "leaf",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__9.label"
-      },
-      {
-        "value": "leather",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__10.label"
-      },
-      {
-        "value": "lock",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__11.label"
-      },
-      {
-        "value": "map_pin",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__12.label"
-      },
-      {
-        "value": "pants",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__13.label"
-      },
-      {
-        "value": "plane",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__14.label"
-      },
-      {
-        "value": "price_tag",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__15.label"
-      },
-      {
-        "value": "question_mark",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__16.label"
-      },
-      {
-        "value": "return",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__17.label"
-      },
-      {
-        "value": "ruler",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__18.label"
-      },
-      {
-        "value": "shirt",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__19.label"
-      },
-      {
-        "value": "shoe",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__20.label"
-      },
-      {
-        "value": "silhouette",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__21.label"
-      },
-      {
-        "value": "star",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__22.label"
-      },
-      {
-        "value": "truck",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__23.label"
-      },
-      {
-        "value": "washing",
-        "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__24.label"
-      }
-    ],
-    "default": "check_mark",
-    "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.label"
-  }
+"type": "select",
+"id": "icon",
+"options": [
+{
+"value": "none",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__1.label"
+},
+{
+"value": "box",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__2.label"
+},
+{
+"value": "chat_bubble",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__3.label"
+},
+{
+"value": "check_mark",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__4.label"
+},
+{
+"value": "dryer",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__5.label"
+},
+{
+"value": "eye",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__6.label"
+},
+{
+"value": "heart",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__7.label"
+},
+{
+"value": "iron",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__8.label"
+},
+{
+"value": "leaf",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__9.label"
+},
+{
+"value": "leather",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__10.label"
+},
+{
+"value": "lock",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__11.label"
+},
+{
+"value": "map_pin",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__12.label"
+},
+{
+"value": "pants",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__13.label"
+},
+{
+"value": "plane",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__14.label"
+},
+{
+"value": "price_tag",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__15.label"
+},
+{
+"value": "question_mark",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__16.label"
+},
+{
+"value": "return",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__17.label"
+},
+{
+"value": "ruler",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__18.label"
+},
+{
+"value": "shirt",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__19.label"
+},
+{
+"value": "shoe",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__20.label"
+},
+{
+"value": "silhouette",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__21.label"
+},
+{
+"value": "star",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__22.label"
+},
+{
+"value": "truck",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__23.label"
+},
+{
+"value": "washing",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__24.label"
+}
+],
+"default": "check_mark",
+"label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.label"
+}
 ]
 },
 {
