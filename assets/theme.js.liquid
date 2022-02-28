@@ -4,6 +4,14 @@ console.log("hello");
 
 
 
+  $(".llytab li").click(function() {
+      $(".llytab li").eq($(this).index()).addClass("cur").siblings().removeClass('cur');
+      $(".showPlace div").hide().eq($(this).index()).show();
+    
+ 
+  });
+
+
  
 $(".lly-slider").slick();
 
