@@ -9,7 +9,9 @@ color:black;
 
 
 @media screen and (max-width: 750px) {
-    .item-list{flex-direction: column;}
+    .item-list{flex-direction: column;
+    
+        padding:1.5rem 30px;}
 }
 
 
@@ -24,20 +26,27 @@ padding-top : 100px;
 padding-bottom:100px;
 overflow:hidden;
 
+
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 749px) {
     .item-list-box{
         width: 100% !important;
+        margin:0px !important;
+  
    
     }
 }
 
 
+
+
+
 .item-list-box{
+    margin-right:10px;
 width: 50%;
 height: 100%;
-padding:20px;
+ 
 }
 .item-list-box img{
 display:block;
@@ -47,6 +56,8 @@ object-fit:contain;
 
 }
 .item-list-box.des {
+    margin-left:10px;
+    margin-right:0px;
 display:flex;
 justify-content:center;
 align-items:start;
@@ -60,6 +71,13 @@ line-height: 120%;
 margin-bottom:16px;
 }
 
+
+@media screen and (max-width: 749px) {
+    .item-list .des{
+font-size: 14px !important;
+line-height: 150%;
+}
+}
 
 .item-list .des{
 font-size: 16px;
@@ -85,7 +103,7 @@ display: flex;
 justify-content: flex-start;
 align-items: center;
 margin-right:18px;
-min-width:200px;
+min-width:180px;
 position:relative;
 
 }
@@ -126,6 +144,7 @@ line-height: 120%;
 @media screen and (max-width: 749px) {
     .buttoncontent{
         flex-direction: column;
+        align-items: flex-start;
 }
 
 .llylink{
@@ -172,7 +191,7 @@ line-height: 120%;
             {%- case block.type -%}
             {%- when 'title' -%}
             {%- if block.settings.title != blank -%}
-            <div class="llytitle">{{ block.settings.title }}</div>
+            <h2 class="llytitle h1"">{{ block.settings.title }}</h2>
             {%- endif -%}
 
             {%- when 'content' -%}
