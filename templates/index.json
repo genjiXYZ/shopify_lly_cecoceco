@@ -368,11 +368,21 @@
             "image": "shopify:\/\/shop_images\/image_13.jpg",
             "icon": "check_mark"
           }
+        },
+        "95c793a1-26b1-4d53-a908-a7cf7c6d9fab": {
+          "type": "title",
+          "settings": {
+            "title": "123",
+            "test": "222",
+            "image": "shopify:\/\/shop_images\/video.jpg",
+            "icon": "shirt"
+          }
         }
       },
       "block_order": [
         "16460509656ad967e6-0",
-        "8775f2b8-90fb-493d-a805-c15d91e2bd15"
+        "8775f2b8-90fb-493d-a805-c15d91e2bd15",
+        "95c793a1-26b1-4d53-a908-a7cf7c6d9fab"
       ],
       "settings": {
         "color": "#ffffff",
