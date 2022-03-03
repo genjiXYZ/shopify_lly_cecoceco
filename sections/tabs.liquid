@@ -5,7 +5,7 @@ background-color: {{ section.settings.color }};
 color:{{ section.settings.color2 }};
 }
 
-.showPlace{
+.showPlace{def
 width:100%;
 padding-bottom:56.25%;
 background-color:#ccc;
@@ -61,6 +61,7 @@ line-height: 120%;
 padding: 5px 20px;
 cursor:pointer;
 
+
 }
 .llytab li.cur {
 
@@ -114,7 +115,7 @@ fill:{{section.settings.scolor}};
                 {% case block.type %}
                 {%- when 'title' -%}
                 {%- if block.settings.title != blank -%}
-                <li class="tab {% if forloop.index == 1  %}cur{% endif %}">
+                <li class="tab fcc {% if forloop.index == 1  %}cur{% endif %}">
 
                     <span class="hidemo">  {% render 'icon-accordion', icon: block.settings.icon %}
                     </span>
@@ -174,16 +175,12 @@ fill:{{section.settings.scolor}};
 
 {
 "type":"title",
-"name":"选显卡标题",
+"name":"添加图片",
 "settings":[
 {
 "type": "text",
 "id":"title",
 "label": "标题"
-},{
-"type": "text",
-"id":"test",
-"label": "内容"
 },{
 "type":"image_picker",
 "id":"image",
@@ -295,30 +292,20 @@ fill:{{section.settings.scolor}};
 }
 ]
 },
+
 {
-"type":"content",
-"name":"内容",
-"settings":[
-{
-"type": "text",
-"id":"des",
-"label": "内容"
-}
-]
-}
-,{
 "type":"link",
 "name":"链接",
 "settings":[
 {
 "type": "text",
 "id":"downloadlabel",
-"label": "链接名"
+"label": "视频名字"
 },
 {
 "type": "text",
 "id":"download",
-"label": "链接"
+"label": "视频链接"
 }
 ]
 }
