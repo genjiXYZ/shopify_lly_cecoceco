@@ -230,9 +230,7 @@
       "settings": {
         "color": "#ffffff",
         "colorbtn": "#9f9f9f",
-        "colorbtn2": "#3d3d3d",
-        "paddingY": "0",
-        "paddingX": "0"
+        "colorbtn2": "#3d3d3d"
       }
     },
     "164631122674cfd742": {
@@ -287,6 +285,7 @@
           "settings": {
             "title": "tab1",
             "image": "shopify:\/\/shop_images\/1_b8cb207d-2613-4b71-8f94-0b8e09aa4603.jpg",
+            "link": "",
             "icon": "check_mark"
           }
         },
@@ -295,6 +294,7 @@
           "settings": {
             "title": "tabs2",
             "image": "shopify:\/\/shop_images\/image_13.jpg",
+            "link": "",
             "icon": "check_mark"
           }
         },
@@ -303,6 +303,7 @@
           "settings": {
             "title": "123",
             "image": "shopify:\/\/shop_images\/video.jpg",
+            "link": "",
             "icon": "shirt"
           }
         },
@@ -310,7 +311,7 @@
           "type": "title",
           "settings": {
             "title": "444",
-            "image": "shopify:\/\/shop_images\/banner-app_bf229dc3-0d2e-4813-9414-00dd28805971.jpg",
+            "link": "https:\/\/www.twinkly.com\/wp-content\/uploads\/2021\/11\/Chrismtas-cover-2021-v4-comp.mp4",
             "icon": "check_mark"
           }
         }
