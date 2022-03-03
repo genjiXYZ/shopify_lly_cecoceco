@@ -229,8 +229,8 @@
       ],
       "settings": {
         "color": "#ffffff",
-        "colorbtn": "#7c7c7c",
-        "colorbtn2": "#2b0d0d",
+        "colorbtn": "#9f9f9f",
+        "colorbtn2": "#3d3d3d",
         "paddingY": "0",
         "paddingX": "0"
       }
