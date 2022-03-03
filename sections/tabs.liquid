@@ -59,6 +59,14 @@ height:100%;
 object-fit:cover;
 }
 
+.llycontainer video
+{
+    display:block;
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
 .showPlace .llycontainer_1{
 display:block;
 }
@@ -122,6 +130,26 @@ fill:{{section.settings.scolor}};
             </div>
 
             {%- endif -%}
+
+            {%- if block.settings.image == blank and block.settings.link != blank -%}
+                <div class="llycontainer llycontainer_{{ forloop.index }}"> 
+      
+
+
+                <video
+                    id="my-player"
+                    class="video-js"
+                    controls
+                    preload="auto"
+
+                >
+                  <source src="{{ block.settings.link }}" type="video/mp4"></source>
+                
+                
+                </video>
+    </div>
+            {%- endif -%}
+
             {% endfor %}
         </div>
 
@@ -204,6 +232,13 @@ fill:{{section.settings.scolor}};
 "id":"image",
 "label":"图片"
 },
+
+    {
+    "type": "text",
+    "id":"link",
+    "label": "视频链接"
+    },
+
 {
 "type": "select",
 "id": "icon",
@@ -307,23 +342,6 @@ fill:{{section.settings.scolor}};
 ],
 "default": "check_mark",
 "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.label"
-}
-]
-},
-
-{
-"type":"link",
-"name":"链接",
-"settings":[
-{
-"type": "text",
-"id":"downloadlabel",
-"label": "视频名字"
-},
-{
-"type": "text",
-"id":"download",
-"label": "视频链接"
 }
 ]
 }
