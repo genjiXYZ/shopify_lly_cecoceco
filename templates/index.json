@@ -231,8 +231,8 @@
         "color": "#d11f1f",
         "colorbtn": "#b96767",
         "colorbtn2": "#2b0d0d",
-        "paddingY": "100px",
-        "paddingX": "100px"
+        "paddingY": "0",
+        "paddingX": "0"
       }
     },
     "16459425466a66d8f5": {
@@ -348,7 +348,6 @@
           "type": "title",
           "settings": {
             "title": "tab1",
-            "test": "1111",
             "image": "shopify:\/\/shop_images\/1_b8cb207d-2613-4b71-8f94-0b8e09aa4603.jpg",
             "icon": "check_mark"
           }
@@ -357,7 +356,6 @@
           "type": "title",
           "settings": {
             "title": "tabs2",
-            "test": "2222",
             "image": "shopify:\/\/shop_images\/image_13.jpg",
             "icon": "check_mark"
           }
@@ -366,7 +364,6 @@
           "type": "title",
           "settings": {
             "title": "123",
-            "test": "222",
             "image": "shopify:\/\/shop_images\/video.jpg",
             "icon": "shirt"
           }
@@ -375,7 +372,6 @@
           "type": "title",
           "settings": {
             "title": "444",
-            "test": "4",
             "image": "shopify:\/\/shop_images\/banner-app_bf229dc3-0d2e-4813-9414-00dd28805971.jpg",
             "icon": "check_mark"
           }
@@ -384,7 +380,6 @@
           "type": "title",
           "settings": {
             "title": "555",
-            "test": "",
             "image": "shopify:\/\/shop_images\/image_12.jpg",
             "icon": "check_mark"
           }
