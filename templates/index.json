@@ -301,7 +301,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/3_e1b210ec-b5c0-4a78-a479-639453c0079c.jpg",
-        "color": "#ffffff"
+        "color": "#ffffff",
+        "colorfont": "#000000"
       }
     },
     "16462213061ed258b0": {
