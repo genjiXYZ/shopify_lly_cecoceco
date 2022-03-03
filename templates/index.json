@@ -228,117 +228,19 @@
         "e695f5cc-83ee-46c5-8ece-f05b02e8b588"
       ],
       "settings": {
-        "color": "#d11f1f",
-        "colorbtn": "#b96767",
+        "color": "#ffffff",
+        "colorbtn": "#7c7c7c",
         "colorbtn2": "#2b0d0d",
         "paddingY": "0",
         "paddingX": "0"
       }
     },
-    "16459425466a66d8f5": {
-      "type": "list",
-      "blocks": {
-        "16459425461bad7266-0": {
-          "type": "title",
-          "settings": {
-            "title": "Included in the box"
-          }
-        },
-        "16459425461bad7266-1": {
-          "type": "content",
-          "settings": {
-            "des": "Push Light 2.0"
-          }
-        },
-        "cdd0c471-4a81-4619-a7a7-fee0e4bb66de": {
-          "type": "content",
-          "settings": {
-            "des": "Controller"
-          }
-        },
-        "79d109a4-d94b-41e6-b498-bde73d85208e": {
-          "type": "content",
-          "settings": {
-            "des": "Wall Adapter"
-          }
-        },
-        "c02ec130-21e7-40bf-bf55-a80561175a1f": {
-          "type": "content",
-          "settings": {
-            "des": "Clip x10"
-          }
-        },
-        "2c3ca601-7ec8-4042-b172-6ece24517ee9": {
-          "type": "content",
-          "settings": {
-            "des": "Tie x4"
-          }
-        },
-        "16459425461bad7266-2": {
-          "type": "link",
-          "settings": {
-            "downloadlabel": "link name",
-            "download": "https:\/\/baidu.com"
-          }
-        },
-        "900c203f-351c-4644-a317-966ec5fff929": {
-          "type": "link",
-          "settings": {
-            "downloadlabel": "link name 2",
-            "download": "http:\/\/baidu.com"
-          }
-        }
-      },
-      "block_order": [
-        "16459425461bad7266-0",
-        "16459425461bad7266-1",
-        "cdd0c471-4a81-4619-a7a7-fee0e4bb66de",
-        "79d109a4-d94b-41e6-b498-bde73d85208e",
-        "c02ec130-21e7-40bf-bf55-a80561175a1f",
-        "2c3ca601-7ec8-4042-b172-6ece24517ee9",
-        "16459425461bad7266-2",
-        "900c203f-351c-4644-a317-966ec5fff929"
-      ],
+    "164631122674cfd742": {
+      "type": "space",
       "settings": {
-        "image": "shopify:\/\/shop_images\/3_e1b210ec-b5c0-4a78-a479-639453c0079c.jpg",
+        "height": 48,
         "color": "#ffffff",
-        "colorfont": "#000000"
-      }
-    },
-    "16462213061ed258b0": {
-      "type": "rich-text",
-      "blocks": {
-        "16462213065fa8eb12-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "16462213065fa8eb12-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "16462213065fa8eb12-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "16462213065fa8eb12-0",
-        "16462213065fa8eb12-1",
-        "16462213065fa8eb12-2"
-      ],
-      "settings": {
-        "color_scheme": "inverse",
-        "full_width": true
+        "name": ""
       }
     },
     "164631048000e6d174": {
@@ -433,6 +335,76 @@
         "color2": "#979797",
         "scolor": "#000000"
       }
+    },
+    "16459425466a66d8f5": {
+      "type": "list",
+      "blocks": {
+        "16459425461bad7266-0": {
+          "type": "title",
+          "settings": {
+            "title": "Included in the box"
+          }
+        },
+        "16459425461bad7266-1": {
+          "type": "content",
+          "settings": {
+            "des": "Push Light 2.0"
+          }
+        },
+        "cdd0c471-4a81-4619-a7a7-fee0e4bb66de": {
+          "type": "content",
+          "settings": {
+            "des": "Controller"
+          }
+        },
+        "79d109a4-d94b-41e6-b498-bde73d85208e": {
+          "type": "content",
+          "settings": {
+            "des": "Wall Adapter"
+          }
+        },
+        "c02ec130-21e7-40bf-bf55-a80561175a1f": {
+          "type": "content",
+          "settings": {
+            "des": "Clip x10"
+          }
+        },
+        "2c3ca601-7ec8-4042-b172-6ece24517ee9": {
+          "type": "content",
+          "settings": {
+            "des": "Tie x4"
+          }
+        },
+        "16459425461bad7266-2": {
+          "type": "link",
+          "settings": {
+            "downloadlabel": "link name",
+            "download": "https:\/\/baidu.com"
+          }
+        },
+        "900c203f-351c-4644-a317-966ec5fff929": {
+          "type": "link",
+          "settings": {
+            "downloadlabel": "link name 2",
+            "download": "http:\/\/baidu.com"
+          }
+        }
+      },
+      "block_order": [
+        "16459425461bad7266-0",
+        "16459425461bad7266-1",
+        "cdd0c471-4a81-4619-a7a7-fee0e4bb66de",
+        "79d109a4-d94b-41e6-b498-bde73d85208e",
+        "c02ec130-21e7-40bf-bf55-a80561175a1f",
+        "2c3ca601-7ec8-4042-b172-6ece24517ee9",
+        "16459425461bad7266-2",
+        "900c203f-351c-4644-a317-966ec5fff929"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_e1b210ec-b5c0-4a78-a479-639453c0079c.jpg",
+        "color": "#ffffff",
+        "colorfont": "#000000"
+      }
     }
   },
   "order": [
@@ -442,9 +414,9 @@
     "16390157659e3317e6",
     "1639015955499070d5",
     "1645028353dd9cbe4a",
-    "16459425466a66d8f5",
-    "16462213061ed258b0",
+    "164631122674cfd742",
     "164631048000e6d174",
-    "164605096589318e00"
+    "164605096589318e00",
+    "16459425466a66d8f5"
   ]
 }
