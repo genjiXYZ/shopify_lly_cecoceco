@@ -7,10 +7,17 @@ color:{{ section.settings.color2 }};
 
 .showPlace{
 width:100%;
-height:664px;
+padding-bottom:56.25%;
 background-color:#ccc;
-
+position:relative;
 }
+
+@media screen and (max-width: 749px) {
+    .hidemo{
+    display:none;
+}
+}
+
 
 
 .showPlace div{
@@ -18,12 +25,18 @@ display:none;
 }
 .llycontainer
 {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
 width:100%;
 height:100%;
 }
 
 .llycontainer img
 {
+    display:block;
 width:100%;
 height:100%;
 object-fit:cover;
@@ -101,7 +114,13 @@ fill:{{section.settings.scolor}};
                 {%- when 'title' -%}
                 {%- if block.settings.title != blank -%}
                 <li class="tab {% if forloop.index == 1  %}cur{% endif %}">
-                    {% render 'icon-accordion', icon: block.settings.icon %}{{block.settings.title}}
+
+                    <span class="hidemo">  {% render 'icon-accordion', icon: block.settings.icon %}
+                    </span>
+                  
+                    
+            
+                    <span>        {{block.settings.title}}</span>
                 </li>
                 {%- endif -%}
 

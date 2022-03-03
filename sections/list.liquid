@@ -2,7 +2,7 @@
 
 .item-list-wrapper{
 background-color: {{ section.settings.color }};
-color:black;
+color:{{ section.settings.colorfont }};
 
 
 }
@@ -69,6 +69,7 @@ font-weight: 600;
 font-size: 40px;
 line-height: 120%;
 margin-bottom:16px;
+color:{{ section.settings.colorfont }};
 }
 
 
@@ -86,7 +87,7 @@ line-height: 150%;
 
 .item-list .llylink{
 
-border: 1px solid #000000;
+border: 1px solid {{ section.settings.colorfont }};
 box-sizing: border-box;
 border-radius: 8px;
 padding:17px;
@@ -107,6 +108,15 @@ min-width:180px;
 position:relative;
 
 }
+
+
+.llylink svg path{
+    
+    stroke: {{ section.settings.colorfont }};
+    
+}
+
+
 .linkcontent{
 display: flex;
 justify-content: center;
@@ -191,7 +201,7 @@ line-height: 120%;
             {%- case block.type -%}
             {%- when 'title' -%}
             {%- if block.settings.title != blank -%}
-            <h2 class="llytitle h1"">{{ block.settings.title }}</h2>
+            <h2 class="llytitle"">{{ block.settings.title }}</h2>
             {%- endif -%}
 
             {%- when 'content' -%}
@@ -274,7 +284,12 @@ line-height: 120%;
 "type": "color",
 "id": "color",
 "label": "背景颜色"
-}
+},
+{
+    "type": "color",
+    "id": "colorfont",
+    "label": "文字颜色"
+    }
 
 
 ],
