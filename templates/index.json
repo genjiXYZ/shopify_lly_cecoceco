@@ -287,13 +287,6 @@
             "downloadlabel": "link name 2",
             "download": "http:\/\/baidu.com"
           }
-        },
-        "93208390-bc13-4159-a0c5-a1a00131bf69": {
-          "type": "link",
-          "settings": {
-            "downloadlabel": "123",
-            "download": ""
-          }
         }
       },
       "block_order": [
@@ -304,8 +297,7 @@
         "c02ec130-21e7-40bf-bf55-a80561175a1f",
         "2c3ca601-7ec8-4042-b172-6ece24517ee9",
         "16459425461bad7266-2",
-        "900c203f-351c-4644-a317-966ec5fff929",
-        "93208390-bc13-4159-a0c5-a1a00131bf69"
+        "900c203f-351c-4644-a317-966ec5fff929"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/3_e1b210ec-b5c0-4a78-a479-639453c0079c.jpg",
