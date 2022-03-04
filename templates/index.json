@@ -378,8 +378,8 @@
         "16459425461bad7266-2": {
           "type": "link",
           "settings": {
-            "downloadlabel": "link name",
-            "download": "https:\/\/baidu.com"
+            "downloadlabel": "test  des",
+            "download": "https:\/\/cecoceco-s3.s3.us-east-2.amazonaws.com\/web\/testdes.txt"
           }
         },
         "900c203f-351c-4644-a317-966ec5fff929": {
