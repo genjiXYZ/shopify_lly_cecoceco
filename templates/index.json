@@ -379,14 +379,14 @@
           "type": "link",
           "settings": {
             "downloadlabel": "test  des",
-            "download": "https:\/\/cecoceco-s3.s3.us-east-2.amazonaws.com\/web\/testdes.txt"
+            "download": "https:\/\/cecoceco-s3.s3.us-east-2.amazonaws.com\/web\/test2.zip"
           }
         },
         "900c203f-351c-4644-a317-966ec5fff929": {
           "type": "link",
           "settings": {
             "downloadlabel": "link name 2",
-            "download": "http:\/\/baidu.com"
+            "download": "https:\/\/cecoceco-s3.s3.us-east-2.amazonaws.com\/web\/test2.zip"
           }
         }
       },
