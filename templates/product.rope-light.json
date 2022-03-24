@@ -386,16 +386,22 @@
         "full_width": true
       }
     },
-    "1648102879e8e58f36": {
+    "1648110399cd44c6cc": {
       "type": "image-slick",
       "blocks": {
-        "1648102879aad96fb3-0": {
+        "16481103995a7d65cb-0": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_Grou3.jpg"
           }
         },
-        "c5d79276-b86d-44d3-8251-a9df24be3900": {
+        "1df3bab2-a1bc-4b98-b743-cf1b2af40263": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/47ddbf91304ff07d88d2e4f3c4dc13ea.jpg"
+          }
+        },
+        "7f412918-8e2b-41ea-ba53-4edeea151ebc": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_Group-4.jpg"
@@ -403,8 +409,9 @@
         }
       },
       "block_order": [
-        "1648102879aad96fb3-0",
-        "c5d79276-b86d-44d3-8251-a9df24be3900"
+        "16481103995a7d65cb-0",
+        "1df3bab2-a1bc-4b98-b743-cf1b2af40263",
+        "7f412918-8e2b-41ea-ba53-4edeea151ebc"
       ],
       "settings": {
         "color": "",
@@ -658,7 +665,7 @@
     "1639016722ba88c2d6",
     "16481035257bbfb70e",
     "1648103108ff7458b5",
-    "1648102879e8e58f36",
+    "1648110399cd44c6cc",
     "1648104014ca9ad20c",
     "164810795093a637e1",
     "1648105172901df808",
