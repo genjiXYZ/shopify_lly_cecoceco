@@ -496,6 +496,42 @@
         "show_text_below": false
       }
     },
+    "1648105172901df808": {
+      "type": "rich-text",
+      "blocks": {
+        "16481051726069ffce-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "16481051726069ffce-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It also features a strap at the end of the rope for hanging, ties for hanging or mounting and a storage bag which will help you turn the light into a lantern, so that you can use it for everything from a unique decoration, to a reading light or nightlight!<\/p>"
+          }
+        },
+        "16481051726069ffce-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16481051726069ffce-0",
+        "16481051726069ffce-1",
+        "16481051726069ffce-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "16390167514b643355": {
       "type": "image-with-text",
       "blocks": {
@@ -670,6 +706,7 @@
     "1648102879e8e58f36",
     "1648104014ca9ad20c",
     "1648104590a0080c7c",
+    "1648105172901df808",
     "16390167514b643355",
     "1639016787bb48413a",
     "1639016821199bc25d",
