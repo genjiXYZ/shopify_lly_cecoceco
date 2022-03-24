@@ -342,14 +342,6 @@
         "layout": "image_first"
       }
     },
-    "16481035257bbfb70e": {
-      "type": "space",
-      "settings": {
-        "height": 8,
-        "color": "transparent",
-        "name": ""
-      }
-    },
     "1648103108ff7458b5": {
       "type": "rich-text",
       "blocks": {
@@ -651,6 +643,64 @@
         "stack_images_on_mobile": false,
         "show_text_below": true
       }
+    },
+    "164811042196c61c45": {
+      "type": "rich-text",
+      "blocks": {
+        "1648110421c30485f7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Multiple modes make journey wonderful",
+            "heading_size": "h1"
+          }
+        },
+        "1648110421c30485f7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The brightness and color temperatures are fully adjustable across multiple pre-set modes such as: music (sync with your music), dining, bonfire, and the brand new SOS mode, which allows the Rope Light to issue SOS signals with flash-light in emergency situations.<\/p>"
+          }
+        },
+        "1648110421c30485f7-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1648110421c30485f7-0",
+        "1648110421c30485f7-1",
+        "1648110421c30485f7-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1648110934a66f8dd2": {
+      "type": "tabs",
+      "blocks": {
+        "16481109345f2ed218-0": {
+          "type": "title",
+          "settings": {
+            "title": "Music mode",
+            "image": "shopify:\/\/shop_images\/Mask_Group-11.jpg",
+            "link": "",
+            "icon": "check_mark"
+          }
+        }
+      },
+      "block_order": [
+        "16481109345f2ed218-0"
+      ],
+      "settings": {
+        "color": "",
+        "color2": "",
+        "scolor": ""
+      }
     }
   },
   "order": [
@@ -663,7 +713,6 @@
     "16481035303b348933",
     "1639016619c9327a14",
     "1639016722ba88c2d6",
-    "16481035257bbfb70e",
     "1648103108ff7458b5",
     "1648110399cd44c6cc",
     "1648104014ca9ad20c",
@@ -672,6 +721,8 @@
     "164810667483e76cd1",
     "1639016983ace3d9ce",
     "164810947501476435",
-    "1648109466c0b372dc"
+    "1648109466c0b372dc",
+    "164811042196c61c45",
+    "1648110934a66f8dd2"
   ]
 }
