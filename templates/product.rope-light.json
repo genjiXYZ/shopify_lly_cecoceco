@@ -1,0 +1,420 @@
+{
+  "sections": {
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16392042009ffcdafd": {
+      "type": "space",
+      "settings": {
+        "height": 16,
+        "color": "transparent",
+        "name": "plush-light"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text_title": "",
+            "text": "{{ product.vendor }}",
+            "text_style_title": "body",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text_title": "",
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style_title": "body",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "8adb27c4-a23e-48a8-991a-7f96c0af799d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Enjoy this moment",
+            "content": "<p>Plush Light is an emotional experience. This unique lamp invokes light and warmth, able to exist in any corner of the home as a flexible lighting fixture. With woven fabric cover that is soft to the touch, Plush Light is seen not only by the eyes, but also felt by the hands and most importantly, the heart. It can be placed anywhere, perfectly integrated into the family environment, as a friend.<\/p>",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "3821c4e0-370a-41e1-b24a-5ddac2d64447": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Spec.",
+            "content": "<p><strong>LIGHT SOURCE:<\/strong><\/p><p>320 LED 7W 396LM 3000K CRI90<\/p><p>5 hours battery life with 8AA batteries or powered by AC adapter<\/p><p><strong>MATERIAL:<\/strong><\/p><p>Microfiber<\/p>",
+            "page": "",
+            "icon": "ruler"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "8adb27c4-a23e-48a8-991a-7f96c0af799d",
+        "3821c4e0-370a-41e1-b24a-5ddac2d64447",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1640224218732c9d26": {
+      "type": "space",
+      "settings": {
+        "height": 32,
+        "color": "transparent",
+        "name": ""
+      }
+    },
+    "16390166165cde3054": {
+      "type": "image-banner",
+      "blocks": {
+        "163901661664a58ee6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "PLUSH LIGHT",
+            "heading_size": "large"
+          }
+        },
+        "163901661664a58ee6-1": {
+          "type": "text",
+          "settings": {
+            "text": "Enjoy this moment"
+          }
+        },
+        "163901661664a58ee6-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "https:\/\/www.cecoceco.com\/products\/plush-light\/#shopify-section-template--15316820820126__main",
+            "button_style_secondary_1": false,
+            "button_label_2": "Watch video",
+            "button_link_2": "https:\/\/youtu.be\/cfKqAvADrts",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "163901661664a58ee6-0",
+        "163901661664a58ee6-1",
+        "163901661664a58ee6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC03361_899d35ea-71de-467a-ad3a-788e9791003a.jpg",
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-start",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "1639016619c9327a14": {
+      "type": "image-with-text",
+      "blocks": {
+        "1639016619d17749f8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Night light"
+          }
+        },
+        "1639016619d17749f8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Safe and gentle light in the night, as a warm companion<\/p>"
+          }
+        },
+        "1639016619d17749f8-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1639016619d17749f8-0",
+        "1639016619d17749f8-1",
+        "1639016619d17749f8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC03290_e4132c57-05b2-4a19-b3c4-32d069c3989e.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "outside_color": "transparent",
+        "layout": "image_first"
+      }
+    },
+    "1639016722ba88c2d6": {
+      "type": "image-with-text",
+      "blocks": {
+        "163901672270f91306-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ambient lighting"
+          }
+        },
+        "163901672270f91306-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CECOCECO Plush Light is a great portable ambient light, to create romance everywhere, anytime as your wish<\/p>"
+          }
+        },
+        "163901672270f91306-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163901672270f91306-0",
+        "163901672270f91306-1",
+        "163901672270f91306-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC02841.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "outside_color": "transparent",
+        "layout": "text_first"
+      }
+    },
+    "16390167514b643355": {
+      "type": "image-with-text",
+      "blocks": {
+        "163901675140aed1a7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fancy decoration solution"
+          }
+        },
+        "163901675140aed1a7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Not just a light, but also your special decoration for home, store, party, holiday.<\/p>"
+          }
+        },
+        "163901675140aed1a7-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163901675140aed1a7-0",
+        "163901675140aed1a7-1",
+        "163901675140aed1a7-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC03600.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "outside_color": "transparent",
+        "layout": "image_first"
+      }
+    },
+    "1639016787bb48413a": {
+      "type": "image-with-text",
+      "blocks": {
+        "1639016787321359fb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reading light"
+          }
+        },
+        "1639016787321359fb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Quality light with excellent CRI and Brightness. It’s a fine reading light or bed light.<\/p>"
+          }
+        },
+        "1639016787321359fb-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1639016787321359fb-0",
+        "1639016787321359fb-1",
+        "1639016787321359fb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC03530.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "outside_color": "transparent",
+        "layout": "text_first"
+      }
+    },
+    "1639016821199bc25d": {
+      "type": "image-with-text",
+      "blocks": {
+        "16390168211a61b116-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ideal gift"
+          }
+        },
+        "16390168211a61b116-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CECOCECO plush light with exquisite package solution and unique rope light, can be a perfect gift to friends and family, as well as to you.<\/p>"
+          }
+        },
+        "16390168211a61b116-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16390168211a61b116-0",
+        "16390168211a61b116-1",
+        "16390168211a61b116-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC03073.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "outside_color": "transparent",
+        "layout": "image_first"
+      }
+    },
+    "16390168548c8a87f3": {
+      "type": "image-with-text",
+      "blocks": {
+        "1639016854ee66160e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Christmas light"
+          }
+        },
+        "1639016854ee66160e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For the coming Christmas holiday, plush light can definitely light your house.<\/p>"
+          }
+        },
+        "1639016854ee66160e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1639016854ee66160e-0",
+        "1639016854ee66160e-1",
+        "1639016854ee66160e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC03584.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "outside_color": "transparent",
+        "layout": "text_first"
+      }
+    },
+    "1639016983ace3d9ce": {
+      "type": "space",
+      "settings": {
+        "height": 56,
+        "color": "transparent",
+        "name": ""
+      }
+    }
+  },
+  "order": [
+    "product-recommendations",
+    "16392042009ffcdafd",
+    "main",
+    "1640224218732c9d26",
+    "16390166165cde3054",
+    "1639016619c9327a14",
+    "1639016722ba88c2d6",
+    "16390167514b643355",
+    "1639016787bb48413a",
+    "1639016821199bc25d",
+    "16390168548c8a87f3",
+    "1639016983ace3d9ce"
+  ]
+}
