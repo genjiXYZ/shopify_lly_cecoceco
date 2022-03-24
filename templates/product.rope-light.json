@@ -485,7 +485,7 @@
         "16481045900a57cd3d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_36.png",
+        "image": "shopify:\/\/shop_images\/Group_1040.jpg",
         "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -502,7 +502,7 @@
         "16481051726069ffce-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Hanging, mounting, changing to a lantern. Use it however you want.",
             "heading_size": "h1"
           }
         },
@@ -532,154 +532,26 @@
         "full_width": true
       }
     },
-    "16390167514b643355": {
-      "type": "image-with-text",
+    "164810667483e76cd1": {
+      "type": "tabs",
       "blocks": {
-        "163901675140aed1a7-0": {
-          "type": "heading",
-          "disabled": true,
+        "1648106674c507a757-0": {
+          "type": "title",
           "settings": {
-            "heading": "Fancy decoration solution"
-          }
-        },
-        "163901675140aed1a7-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Not just a light, but also your special decoration for home, store, party, holiday.<\/p>"
-          }
-        },
-        "163901675140aed1a7-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "title": "Hanging",
+            "image": "shopify:\/\/shop_images\/Group_970.jpg",
+            "link": "",
+            "icon": "chat_bubble"
           }
         }
       },
       "block_order": [
-        "163901675140aed1a7-0",
-        "163901675140aed1a7-1",
-        "163901675140aed1a7-2"
+        "1648106674c507a757-0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC03600.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "image_first"
-      }
-    },
-    "1639016787bb48413a": {
-      "type": "image-with-text",
-      "blocks": {
-        "1639016787321359fb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Reading light"
-          }
-        },
-        "1639016787321359fb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Quality light with excellent CRI and Brightness. It’s a fine reading light or bed light.<\/p>"
-          }
-        },
-        "1639016787321359fb-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1639016787321359fb-0",
-        "1639016787321359fb-1",
-        "1639016787321359fb-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC03530.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "text_first"
-      }
-    },
-    "1639016821199bc25d": {
-      "type": "image-with-text",
-      "blocks": {
-        "16390168211a61b116-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ideal gift"
-          }
-        },
-        "16390168211a61b116-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>CECOCECO plush light with exquisite package solution and unique rope light, can be a perfect gift to friends and family, as well as to you.<\/p>"
-          }
-        },
-        "16390168211a61b116-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16390168211a61b116-0",
-        "16390168211a61b116-1",
-        "16390168211a61b116-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC03073.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "image_first"
-      }
-    },
-    "16390168548c8a87f3": {
-      "type": "image-with-text",
-      "blocks": {
-        "1639016854ee66160e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Christmas light"
-          }
-        },
-        "1639016854ee66160e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For the coming Christmas holiday, plush light can definitely light your house.<\/p>"
-          }
-        },
-        "1639016854ee66160e-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1639016854ee66160e-0",
-        "1639016854ee66160e-1",
-        "1639016854ee66160e-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC03584.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "text_first"
+        "color": "",
+        "color2": "",
+        "scolor": ""
       }
     },
     "1639016983ace3d9ce": {
@@ -707,10 +579,7 @@
     "1648104014ca9ad20c",
     "1648104590a0080c7c",
     "1648105172901df808",
-    "16390167514b643355",
-    "1639016787bb48413a",
-    "1639016821199bc25d",
-    "16390168548c8a87f3",
+    "164810667483e76cd1",
     "1639016983ace3d9ce"
   ]
 }
