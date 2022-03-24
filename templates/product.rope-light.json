@@ -691,10 +691,20 @@
             "link": "",
             "icon": "check_mark"
           }
+        },
+        "6afa49c6-58ab-40ae-baa1-5b5faf985faf": {
+          "type": "title",
+          "settings": {
+            "title": "Candlelight Mode",
+            "image": "shopify:\/\/shop_images\/Mask_Group-111.jpg",
+            "link": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
-        "16481109345f2ed218-0"
+        "16481109345f2ed218-0",
+        "6afa49c6-58ab-40ae-baa1-5b5faf985faf"
       ],
       "settings": {
         "color": "",
