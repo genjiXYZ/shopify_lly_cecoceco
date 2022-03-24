@@ -397,8 +397,8 @@
         },
         "c5d79276-b86d-44d3-8251-a9df24be3900": {
           "type": "image",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group-4.jpg"
           }
         }
       },
