@@ -556,6 +556,49 @@
         "name": ""
       }
     },
+    "164810947501476435": {
+      "type": "multicolumn",
+      "blocks": {
+        "1648109475947e940e-0": {
+          "type": "column",
+          "settings": {
+            "title": "Two ways to supply power",
+            "text": "<p>Besides the power adapter, the Rope Light is equipped with a Type-C adapter to allow for a powerbank*, meaning you can take it wherever you want, from campsite to hiking trail. Brighten your journey wherever you go. <\/p>"
+          }
+        },
+        "1648109475947e940e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group11.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1648109475947e940e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group12.jpg",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1648109475947e940e-0",
+        "1648109475947e940e-1",
+        "1648109475947e940e-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "1648109466c0b372dc": {
       "type": "image-banner",
       "blocks": {
@@ -621,6 +664,7 @@
     "1648105172901df808",
     "164810667483e76cd1",
     "1639016983ace3d9ce",
+    "164810947501476435",
     "1648109466c0b372dc"
   ]
 }
