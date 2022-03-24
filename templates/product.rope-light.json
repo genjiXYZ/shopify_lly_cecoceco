@@ -412,6 +412,42 @@
         "colorbtn2": ""
       }
     },
+    "1648104014ca9ad20c": {
+      "type": "rich-text",
+      "blocks": {
+        "16481040147702c1bb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "10ft long and a 360º glow, boasting a crazy brightness of up to 1000lm",
+            "heading_size": "h1"
+          }
+        },
+        "16481040147702c1bb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Set the light you want in a courtyard or camp. A gathering becomes more memorable whether you use Rope Light for reading, cooking, telling stories with friends, or even just for lighting.<\/p>"
+          }
+        },
+        "16481040147702c1bb-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16481040147702c1bb-0",
+        "16481040147702c1bb-1",
+        "16481040147702c1bb-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "16390167514b643355": {
       "type": "image-with-text",
       "blocks": {
@@ -582,6 +618,7 @@
     "16481035257bbfb70e",
     "1648103108ff7458b5",
     "1648102879e8e58f36",
+    "1648104014ca9ad20c",
     "16390167514b643355",
     "1639016787bb48413a",
     "1639016821199bc25d",
