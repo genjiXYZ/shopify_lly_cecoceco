@@ -555,6 +555,52 @@
         "color": "transparent",
         "name": ""
       }
+    },
+    "1648109466c0b372dc": {
+      "type": "image-banner",
+      "blocks": {
+        "1648109466baf8ab41-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "With one strip, the stage can be anywhere",
+            "heading_size": "medium"
+          }
+        },
+        "1648109466baf8ab41-1": {
+          "type": "text",
+          "settings": {
+            "text": "Not only a durable light, Rope Light is smart with multiple modes and control methods."
+          }
+        },
+        "1648109466baf8ab41-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1648109466baf8ab41-0",
+        "1648109466baf8ab41-1",
+        "1648109466baf8ab41-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_22.jpg",
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-start",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -574,6 +620,7 @@
     "164810795093a637e1",
     "1648105172901df808",
     "164810667483e76cd1",
-    "1639016983ace3d9ce"
+    "1639016983ace3d9ce",
+    "1648109466c0b372dc"
   ]
 }
