@@ -700,11 +700,21 @@
             "link": "",
             "icon": "check_mark"
           }
+        },
+        "14a42555-3410-4fb8-8602-f5c0ee13c94b": {
+          "type": "title",
+          "settings": {
+            "title": "Breathe Mode",
+            "image": "shopify:\/\/shop_images\/Mask_Group-22.jpg",
+            "link": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
         "16481109345f2ed218-0",
-        "6afa49c6-58ab-40ae-baa1-5b5faf985faf"
+        "6afa49c6-58ab-40ae-baa1-5b5faf985faf",
+        "14a42555-3410-4fb8-8602-f5c0ee13c94b"
       ],
       "settings": {
         "color": "",
