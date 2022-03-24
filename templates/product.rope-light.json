@@ -518,15 +518,6 @@
             "icon": "chat_bubble"
           }
         },
-        "135c0e1e-323e-4ec5-a678-251be590fd91": {
-          "type": "title",
-          "settings": {
-            "title": "Mounting",
-            "image": "shopify:\/\/shop_images\/Mask_Group-1.jpg",
-            "link": "",
-            "icon": "check_mark"
-          }
-        },
         "4365d428-404e-475d-b857-35926d9e0683": {
           "type": "title",
           "settings": {
@@ -535,12 +526,21 @@
             "link": "",
             "icon": "check_mark"
           }
+        },
+        "135c0e1e-323e-4ec5-a678-251be590fd91": {
+          "type": "title",
+          "settings": {
+            "title": "Lantren",
+            "image": "shopify:\/\/shop_images\/Mask_Group-1.jpg",
+            "link": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
         "1648106674c507a757-0",
-        "135c0e1e-323e-4ec5-a678-251be590fd91",
-        "4365d428-404e-475d-b857-35926d9e0683"
+        "4365d428-404e-475d-b857-35926d9e0683",
+        "135c0e1e-323e-4ec5-a678-251be590fd91"
       ],
       "settings": {
         "color": "",
