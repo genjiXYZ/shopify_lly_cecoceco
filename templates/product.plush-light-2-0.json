@@ -114,35 +114,15 @@
     "16390166165cde3054": {
       "type": "image-banner",
       "blocks": {
-        "163901661664a58ee6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "PLUSH LIGHT 2.0",
-            "heading_size": "large"
-          }
-        },
         "163901661664a58ee6-1": {
           "type": "text",
           "settings": {
             "text": "Enjoy this moment"
           }
-        },
-        "163901661664a58ee6-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "https:\/\/www.cecoceco.com\/products\/plush-light\/#shopify-section-template--15316820820126__main",
-            "button_style_secondary_1": false,
-            "button_label_2": "Watch video",
-            "button_link_2": "https:\/\/youtu.be\/cfKqAvADrts",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
-        "163901661664a58ee6-0",
-        "163901661664a58ee6-1",
-        "163901661664a58ee6-2"
+        "163901661664a58ee6-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_10890.jpg",
@@ -155,11 +135,30 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
+    },
+    "164819896213c40ebd": {
+      "type": "rich-text",
+      "blocks": {
+        "1648198962bef4f93c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Plush Light 2.0 has taken the sublime design of the original 1.0, and added improvements that make it a must have smart light for any home. Its signature woven fabric cover remains, and its soft, even, and customisable lighting make it a welcome addition to any environment. It adds a warmth and uniqueness that allows it to be placed anywhere and immediately add personality to the space. <\/p><p>Either as a gentle and warm night light, or ambient lighting to fill a space, its adjustable brightness and color tone makes it perfect for all environments.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1648198962bef4f93c-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "product-recommendations",
     "main",
-    "16390166165cde3054"
+    "16390166165cde3054",
+    "164819896213c40ebd"
   ]
 }
