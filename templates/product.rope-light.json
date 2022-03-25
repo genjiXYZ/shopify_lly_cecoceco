@@ -395,42 +395,6 @@
         "colorbtn2": ""
       }
     },
-    "1648104014ca9ad20c": {
-      "type": "rich-text",
-      "blocks": {
-        "16481040147702c1bb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "10ft long and a 360º glow, boasting a crazy brightness of up to 1000lm",
-            "heading_size": "h1"
-          }
-        },
-        "16481040147702c1bb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Set the light you want in a courtyard or camp. A gathering becomes more memorable whether you use Rope Light for reading, cooking, telling stories with friends, or even just for lighting.<\/p>"
-          }
-        },
-        "16481040147702c1bb-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "16481040147702c1bb-0",
-        "16481040147702c1bb-1",
-        "16481040147702c1bb-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "164810795093a637e1": {
       "type": "tabs",
       "blocks": {
@@ -830,6 +794,48 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1648192493a4473796": {
+      "type": "list",
+      "blocks": {
+        "1648192493e9a3d98b-0": {
+          "type": "title",
+          "settings": {
+            "title": "Included in the box"
+          }
+        },
+        "1648192493e9a3d98b-1": {
+          "type": "content",
+          "settings": {
+            "des": "Rope light Controller Power adapter Storage bag Silicone sling x4C shape clip x10"
+          }
+        },
+        "1648192493e9a3d98b-2": {
+          "type": "link",
+          "settings": {
+            "downloadlabel": "Product sheet",
+            "download": ""
+          }
+        },
+        "b143467f-aa13-4621-be8c-05843f45ab28": {
+          "type": "link",
+          "settings": {
+            "downloadlabel": "Quick start guide",
+            "download": ""
+          }
+        }
+      },
+      "block_order": [
+        "1648192493e9a3d98b-0",
+        "1648192493e9a3d98b-1",
+        "1648192493e9a3d98b-2",
+        "b143467f-aa13-4621-be8c-05843f45ab28"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_Group888.png",
+        "color": "",
+        "colorfont": ""
+      }
     }
   },
   "order": [
@@ -842,7 +848,6 @@
     "1639016722ba88c2d6",
     "1648103108ff7458b5",
     "1648110399cd44c6cc",
-    "1648104014ca9ad20c",
     "164810795093a637e1",
     "1648105172901df808",
     "164810667483e76cd1",
@@ -852,6 +857,7 @@
     "1648110934a66f8dd2",
     "16481781054b5ca729",
     "16481794022d009b1a",
-    "1648192132ece77d55"
+    "1648192132ece77d55",
+    "1648192493a4473796"
   ]
 }
