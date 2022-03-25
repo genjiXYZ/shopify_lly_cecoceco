@@ -13,14 +13,6 @@
         "show_rating": false
       }
     },
-    "16392042009ffcdafd": {
-      "type": "space",
-      "settings": {
-        "height": 16,
-        "color": "transparent",
-        "name": "plush-light"
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -119,14 +111,6 @@
         "enable_video_looping": false
       }
     },
-    "1640224218732c9d26": {
-      "type": "space",
-      "settings": {
-        "height": 32,
-        "color": "transparent",
-        "name": ""
-      }
-    },
     "16390166165cde3054": {
       "type": "image-banner",
       "blocks": {
@@ -161,7 +145,7 @@
         "163901661664a58ee6-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_1089_9674f877-f07d-483e-8dbb-b7d34195de66.jpg",
+        "image": "shopify:\/\/shop_images\/Group_10890.jpg",
         "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
@@ -171,250 +155,11 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
-    },
-    "1639016619c9327a14": {
-      "type": "image-with-text",
-      "blocks": {
-        "1639016619d17749f8-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Night light"
-          }
-        },
-        "1639016619d17749f8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Safe and gentle light in the night, as a warm companion<\/p>"
-          }
-        },
-        "1639016619d17749f8-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1639016619d17749f8-0",
-        "1639016619d17749f8-1",
-        "1639016619d17749f8-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC03290_e4132c57-05b2-4a19-b3c4-32d069c3989e.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "image_first"
-      }
-    },
-    "1639016722ba88c2d6": {
-      "type": "image-with-text",
-      "blocks": {
-        "163901672270f91306-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ambient lighting"
-          }
-        },
-        "163901672270f91306-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>CECOCECO Plush Light is a great portable ambient light, to create romance everywhere, anytime as your wish<\/p>"
-          }
-        },
-        "163901672270f91306-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "163901672270f91306-0",
-        "163901672270f91306-1",
-        "163901672270f91306-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC02841.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "text_first"
-      }
-    },
-    "16390167514b643355": {
-      "type": "image-with-text",
-      "blocks": {
-        "163901675140aed1a7-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Fancy decoration solution"
-          }
-        },
-        "163901675140aed1a7-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Not just a light, but also your special decoration for home, store, party, holiday.<\/p>"
-          }
-        },
-        "163901675140aed1a7-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "163901675140aed1a7-0",
-        "163901675140aed1a7-1",
-        "163901675140aed1a7-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC03600.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "image_first"
-      }
-    },
-    "1639016787bb48413a": {
-      "type": "image-with-text",
-      "blocks": {
-        "1639016787321359fb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Reading light"
-          }
-        },
-        "1639016787321359fb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Quality light with excellent CRI and Brightness. It’s a fine reading light or bed light.<\/p>"
-          }
-        },
-        "1639016787321359fb-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1639016787321359fb-0",
-        "1639016787321359fb-1",
-        "1639016787321359fb-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC03530.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "text_first"
-      }
-    },
-    "1639016821199bc25d": {
-      "type": "image-with-text",
-      "blocks": {
-        "16390168211a61b116-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ideal gift"
-          }
-        },
-        "16390168211a61b116-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>CECOCECO plush light with exquisite package solution and unique rope light, can be a perfect gift to friends and family, as well as to you.<\/p>"
-          }
-        },
-        "16390168211a61b116-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16390168211a61b116-0",
-        "16390168211a61b116-1",
-        "16390168211a61b116-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC03073.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "image_first"
-      }
-    },
-    "16390168548c8a87f3": {
-      "type": "image-with-text",
-      "blocks": {
-        "1639016854ee66160e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Christmas light"
-          }
-        },
-        "1639016854ee66160e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For the coming Christmas holiday, plush light can definitely light your house.<\/p>"
-          }
-        },
-        "1639016854ee66160e-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1639016854ee66160e-0",
-        "1639016854ee66160e-1",
-        "1639016854ee66160e-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC03584.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "outside_color": "transparent",
-        "layout": "text_first"
-      }
-    },
-    "1639016983ace3d9ce": {
-      "type": "space",
-      "settings": {
-        "height": 56,
-        "color": "transparent",
-        "name": ""
-      }
     }
   },
   "order": [
     "product-recommendations",
-    "16392042009ffcdafd",
     "main",
-    "1640224218732c9d26",
-    "16390166165cde3054",
-    "1639016619c9327a14",
-    "1639016722ba88c2d6",
-    "16390167514b643355",
-    "1639016787bb48413a",
-    "1639016821199bc25d",
-    "16390168548c8a87f3",
-    "1639016983ace3d9ce"
+    "16390166165cde3054"
   ]
 }
