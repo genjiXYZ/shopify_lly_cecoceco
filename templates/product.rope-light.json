@@ -13,14 +13,6 @@
         "show_rating": false
       }
     },
-    "16392042009ffcdafd": {
-      "type": "space",
-      "settings": {
-        "height": 16,
-        "color": "transparent",
-        "name": "plush-light"
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -117,14 +109,6 @@
         "enable_sticky_info": true,
         "hide_variants": false,
         "enable_video_looping": false
-      }
-    },
-    "1640224218732c9d26": {
-      "type": "space",
-      "settings": {
-        "height": 32,
-        "color": "transparent",
-        "name": ""
       }
     },
     "16390166165cde3054": {
@@ -547,14 +531,6 @@
         "scolor": ""
       }
     },
-    "1639016983ace3d9ce": {
-      "type": "space",
-      "settings": {
-        "height": 56,
-        "color": "transparent",
-        "name": ""
-      }
-    },
     "164810947501476435": {
       "type": "multicolumn",
       "blocks": {
@@ -721,13 +697,95 @@
         "color2": "",
         "scolor": ""
       }
+    },
+    "16481781054b5ca729": {
+      "type": "image-banner",
+      "blocks": {
+        "164817810521b085a5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "164817810521b085a5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "164817810521b085a5-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "164817810521b085a5-0",
+        "164817810521b085a5-1",
+        "164817810521b085a5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1090.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16481794022d009b1a": {
+      "type": "image-with-text",
+      "blocks": {
+        "1648179402e7df93f7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unlimited control"
+          }
+        },
+        "1648179402e7df93f7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Change your light through in-line controller or App. Both of them will give you complete and seamless control of your lighting environments! <\/p>"
+          }
+        },
+        "1648179402e7df93f7-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1648179402e7df93f7-0",
+        "1648179402e7df93f7-1",
+        "1648179402e7df93f7-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "outside_color": "transparent",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
     "product-recommendations",
-    "16392042009ffcdafd",
     "main",
-    "1640224218732c9d26",
     "16390166165cde3054",
     "1648102814ea96d47b",
     "16481035303b348933",
@@ -739,10 +797,11 @@
     "164810795093a637e1",
     "1648105172901df808",
     "164810667483e76cd1",
-    "1639016983ace3d9ce",
     "164810947501476435",
     "1648109466c0b372dc",
     "164811042196c61c45",
-    "1648110934a66f8dd2"
+    "1648110934a66f8dd2",
+    "16481781054b5ca729",
+    "16481794022d009b1a"
   ]
 }
