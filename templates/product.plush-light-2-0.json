@@ -414,6 +414,91 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "16484461676aaed944": {
+      "type": "image-banner",
+      "blocks": {
+        "1648446167f6cde065-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1648446167f6cde065-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        }
+      },
+      "block_order": [
+        "1648446167f6cde065-0",
+        "1648446167f6cde065-1"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/Group_1010.jpg",
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-start",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1648447140af03ac77": {
+      "type": "tabs",
+      "blocks": {
+        "16484471404994c168-0": {
+          "type": "title",
+          "settings": {
+            "title": "Wake-up Mode",
+            "image": "shopify:\/\/shop_images\/Mask_Groups.jpg",
+            "link": "",
+            "icon": "check_mark"
+          }
+        },
+        "d0a3b340-cbaf-48af-b68e-a4124f924da6": {
+          "type": "title",
+          "settings": {
+            "title": "Relax Mode",
+            "image": "shopify:\/\/shop_images\/Mask_Groupc.jpg",
+            "link": "",
+            "icon": "check_mark"
+          }
+        },
+        "01f45205-1230-4b95-be25-2aa7951b4e54": {
+          "type": "title",
+          "settings": {
+            "title": "Read Mode",
+            "image": "shopify:\/\/shop_images\/Mask_Groupcc.jpg",
+            "link": "",
+            "icon": "check_mark"
+          }
+        },
+        "deecfca6-39b6-45a2-b256-ef5e92083fdc": {
+          "type": "title",
+          "settings": {
+            "title": "Dinner Mode",
+            "image": "shopify:\/\/shop_images\/Mask_Group13.jpg",
+            "link": "",
+            "icon": "check_mark"
+          }
+        }
+      },
+      "block_order": [
+        "16484471404994c168-0",
+        "d0a3b340-cbaf-48af-b68e-a4124f924da6",
+        "01f45205-1230-4b95-be25-2aa7951b4e54",
+        "deecfca6-39b6-45a2-b256-ef5e92083fdc"
+      ],
+      "settings": {
+        "color": "",
+        "color2": "",
+        "scolor": ""
+      }
     }
   },
   "order": [
@@ -428,6 +513,8 @@
     "16484393615627487f",
     "16484400534d66da71",
     "16484455877064cfb7",
-    "16484455914f86e4f5"
+    "16484455914f86e4f5",
+    "16484461676aaed944",
+    "1648447140af03ac77"
   ]
 }
