@@ -339,6 +339,28 @@
         "outside_color": "transparent",
         "layout": "text_first"
       }
+    },
+    "16484455877064cfb7": {
+      "type": "tabs",
+      "blocks": {
+        "1648445587dea84442-0": {
+          "type": "title",
+          "settings": {
+            "title": "Hanging",
+            "image": "shopify:\/\/shop_images\/Mask_Group011.jpg",
+            "link": "",
+            "icon": "check_mark"
+          }
+        }
+      },
+      "block_order": [
+        "1648445587dea84442-0"
+      ],
+      "settings": {
+        "color": "",
+        "color2": "",
+        "scolor": ""
+      }
     }
   },
   "order": [
@@ -351,6 +373,7 @@
     "16484376355576ac98",
     "1648438443efdbad01",
     "16484393615627487f",
-    "16484400534d66da71"
+    "16484400534d66da71",
+    "16484455877064cfb7"
   ]
 }
