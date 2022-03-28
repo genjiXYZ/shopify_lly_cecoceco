@@ -234,6 +234,50 @@
         "colorbtn": "",
         "colorbtn2": ""
       }
+    },
+    "1648438443efdbad01": {
+      "type": "multicolumn",
+      "blocks": {
+        "1648438443284a0b68-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group333.jpg",
+            "title": "Safe for children",
+            "text": "<p>An ultra-soft, supple braided rope that uses microfiber cloth completely safe for children and pets* with a chic, modern design that will look good in any home. <\/p>"
+          }
+        },
+        "1648438443284a0b68-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group1.jpg",
+            "title": "Ambience light",
+            "text": "<p>The soft fabric cover also ensures no glare from the light with an excellent CRI*, and is perfect for adding an ambience to any room or space.<\/p>"
+          }
+        },
+        "1648438443284a0b68-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group2.jpg",
+            "title": "Different colors",
+            "text": "<p>You can also choose from different colors for the ends of the strip and cable (white, pink, blue, and yellow) to add some personality to your Plush Light.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1648438443284a0b68-0",
+        "1648438443284a0b68-1",
+        "1648438443284a0b68-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
@@ -243,6 +287,7 @@
     "164819896213c40ebd",
     "1648202554f712c5b6",
     "164820296993ea844b",
-    "16484376355576ac98"
+    "16484376355576ac98",
+    "1648438443efdbad01"
   ]
 }
