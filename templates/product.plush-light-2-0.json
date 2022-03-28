@@ -619,25 +619,38 @@
         "show_text_below": true
       }
     },
-    "1648448887811052e5": {
-      "type": "tabs",
+    "1648448933b8bba7e7": {
+      "type": "list",
       "blocks": {
-        "16484488876f4de34f-0": {
+        "16484489338ba281a0-0": {
           "type": "title",
           "settings": {
-            "title": "",
-            "link": "",
-            "icon": "check_mark"
+            "title": "Included in the box"
+          }
+        },
+        "16484489338ba281a0-1": {
+          "type": "content",
+          "settings": {
+            "des": "Plush light 2.0                    Controller                                     Power adapter Storage bagSilicone sling x4C shape clip x10"
+          }
+        },
+        "16484489338ba281a0-2": {
+          "type": "link",
+          "settings": {
+            "downloadlabel": "",
+            "download": ""
           }
         }
       },
       "block_order": [
-        "16484488876f4de34f-0"
+        "16484489338ba281a0-0",
+        "16484489338ba281a0-1",
+        "16484489338ba281a0-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_Groupv.png",
         "color": "",
-        "color2": "",
-        "scolor": ""
+        "colorfont": ""
       }
     }
   },
@@ -661,6 +674,6 @@
     "1648448117ab2991c7",
     "1648448336899cf0e0",
     "16484485146e1811d5",
-    "1648448887811052e5"
+    "1648448933b8bba7e7"
   ]
 }
