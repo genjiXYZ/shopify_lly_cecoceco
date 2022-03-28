@@ -278,6 +278,39 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "16484393615627487f": {
+      "type": "image-banner",
+      "blocks": {
+        "16484393611eeb16e6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "16484393611eeb16e6-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        }
+      },
+      "block_order": [
+        "16484393611eeb16e6-0",
+        "16484393611eeb16e6-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_1098.jpg",
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-start",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -288,6 +321,7 @@
     "1648202554f712c5b6",
     "164820296993ea844b",
     "16484376355576ac98",
-    "1648438443efdbad01"
+    "1648438443efdbad01",
+    "16484393615627487f"
   ]
 }
