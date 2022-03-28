@@ -114,15 +114,35 @@
     "16390166165cde3054": {
       "type": "image-banner",
       "blocks": {
+        "b52902cd-0136-4004-a4f7-c69052a139de": {
+          "type": "heading",
+          "settings": {
+            "heading": "PLUSH LIGHT 2.0",
+            "heading_size": "medium"
+          }
+        },
         "163901661664a58ee6-1": {
           "type": "text",
           "settings": {
             "text": "Enjoy this moment"
           }
+        },
+        "4fbd04f9-53ce-4beb-ad55-46e12401d334": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Watch video",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
-        "163901661664a58ee6-1"
+        "b52902cd-0136-4004-a4f7-c69052a139de",
+        "163901661664a58ee6-1",
+        "4fbd04f9-53ce-4beb-ad55-46e12401d334"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_10890.jpg",
@@ -171,7 +191,8 @@
     "164820296993ea844b": {
       "type": "image-banner",
       "settings": {
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/Group_1062.jpg",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": true,
@@ -179,6 +200,39 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "16484376355576ac98": {
+      "type": "image-slick",
+      "blocks": {
+        "1648437635c520f4a0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group_52024ecf-b584-45df-bfdb-99fe04076155.jpg"
+          }
+        },
+        "65e5eeb7-d2d3-494f-ac39-2a29ff37705e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group111.jpg"
+          }
+        },
+        "dc207636-02ea-4fbb-bbd2-edcc4d0302c1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group222.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1648437635c520f4a0-0",
+        "65e5eeb7-d2d3-494f-ac39-2a29ff37705e",
+        "dc207636-02ea-4fbb-bbd2-edcc4d0302c1"
+      ],
+      "settings": {
+        "color": "",
+        "colorbtn": "",
+        "colorbtn2": ""
       }
     }
   },
@@ -188,6 +242,7 @@
     "16390166165cde3054",
     "164819896213c40ebd",
     "1648202554f712c5b6",
-    "164820296993ea844b"
+    "164820296993ea844b",
+    "16484376355576ac98"
   ]
 }
