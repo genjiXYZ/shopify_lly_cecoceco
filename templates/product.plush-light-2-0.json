@@ -595,10 +595,10 @@
         "16484483363eb6e0e1-1"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Unlimited Control",
         "image_width": "full",
         "image_ratio": "adapt",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
