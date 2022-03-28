@@ -637,7 +637,14 @@
         "16484489338ba281a0-2": {
           "type": "link",
           "settings": {
-            "downloadlabel": "",
+            "downloadlabel": "Product sheet",
+            "download": ""
+          }
+        },
+        "e0af11f3-8e2b-447c-b441-6a537854d670": {
+          "type": "link",
+          "settings": {
+            "downloadlabel": "Quick start guide",
             "download": ""
           }
         }
@@ -645,7 +652,8 @@
       "block_order": [
         "16484489338ba281a0-0",
         "16484489338ba281a0-1",
-        "16484489338ba281a0-2"
+        "16484489338ba281a0-2",
+        "e0af11f3-8e2b-447c-b441-6a537854d670"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mask_Groupv.png",
