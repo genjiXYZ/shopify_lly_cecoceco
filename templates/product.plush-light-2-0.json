@@ -351,10 +351,20 @@
             "link": "",
             "icon": "check_mark"
           }
+        },
+        "d922ce30-d017-4569-95d3-ae165b87a8cb": {
+          "type": "title",
+          "settings": {
+            "title": "Mounting",
+            "image": "shopify:\/\/shop_images\/Mask_Group022.jpg",
+            "link": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
-        "1648445587dea84442-0"
+        "1648445587dea84442-0",
+        "d922ce30-d017-4569-95d3-ae165b87a8cb"
       ],
       "settings": {
         "color": "",
