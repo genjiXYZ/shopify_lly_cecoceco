@@ -311,6 +311,34 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "16484400534d66da71": {
+      "type": "image-with-text",
+      "blocks": {
+        "1648440053cf540834-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "10ft x 360º glowing"
+          }
+        },
+        "1648440053cf540834-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boasting a light that is 10ft long* and able to bend 360 degrees at any point, you can be as creative as you want in the installation of the Plush Light 2.0! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1648440053cf540834-0",
+        "1648440053cf540834-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_group22.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "outside_color": "transparent",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
@@ -322,6 +350,7 @@
     "164820296993ea844b",
     "16484376355576ac98",
     "1648438443efdbad01",
-    "16484393615627487f"
+    "16484393615627487f",
+    "16484400534d66da71"
   ]
 }
